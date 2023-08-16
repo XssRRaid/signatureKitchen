@@ -94,8 +94,6 @@ $(function() { new (function(){
 		new VimeoBG();
 		new VideoBG();
 		app.prepare(function(){
-	alert('asdsd')
-
 			loading.load(function (){
 				$navLinks = $navLinks.add(dotScroll.links()).click(function(){
 					$navLinks.removeClass('target');

@@ -38,7 +38,8 @@
 
     <NavBar />
     <Overlay />
-
     <slot />
+
+    <Footer />
   </div>
 </template>
