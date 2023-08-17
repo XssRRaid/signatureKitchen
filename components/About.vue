@@ -22,9 +22,23 @@
 
           <div class="row">
             <div class="col-md-6">
-              <h4>- Elevating Your Culinary Experience!</h4>
+              <h4>
+                <span class="highlight">Premium quality</span>, crafted with elegance…
+              </h4>
 
-              <div class="tab-content">
+              <p class="mb-medium">
+                <strong>
+                  Our products are durable and crafted by highly skilled professionals.
+                  Our organisation is driven by an unwavering commitment to quality,
+                  backed by an advanced &amp; multifaceted infrastructure, the latest
+                  technology and skilled craftsmen that create our products using only the
+                  best-grade stainless steel raw materials. This not just ensures the high
+                  durability of our products but also keeps Butterfly Steels way ahead of
+                  its competitors.
+                </strong>
+              </p>
+
+              <!-- <div class="tab-content">
                 <div class="tab-pane fade active in" id="html5">
                   <p>
                     Fusce hendrerit enim et lacus rutrum, fermentum consectetur mauris
@@ -119,9 +133,9 @@
                     accumsan blandit.
                   </p>
                 </div>
-              </div>
+              </div> -->
 
-              <ul class="widget-tabs nav nav-tabs background-lite-b">
+              <ul class="nav nav-tabs background-lite-b">
                 <li class="active"><a href="#html5" data-toggle="tab">Our Story</a></li>
                 <li class=""><a href="#css3" data-toggle="tab">Our Promise</a></li>
                 <li class=""><a href="#jquery-skill" data-toggle="tab">The Team</a></li>

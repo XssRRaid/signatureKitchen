@@ -6258,3 +6258,21 @@ pre::-webkit-scrollbar-thumb,
   content: "+";
   display: inline;
 }
+
+.text-justify {
+  text-align: justify;
+}
+
+.mb-medium {
+  margin-bottom: 2rem;
+}
+
+
+.text-g {
+  color: #a19f9f !important;
+}
+
+a.button:hover {
+  color: rgb(235 236 234) !important;
+  background-color: rgb(33 92 53 / 75%) !important;
+}

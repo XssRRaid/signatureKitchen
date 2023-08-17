@@ -1,5 +1,5 @@
 <template>
-  <h4>The <span class="">Signature</span> Product Range..</h4>
+  <h4>The <span class="highlight">Signature</span> Product Range</h4>
 
   <div class="skillbars">
     <div class="skillbar clearfix background-d" data-percent="40%">
