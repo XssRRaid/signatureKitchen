@@ -6283,16 +6283,18 @@ a.button:hover {
 
 .viewAllProducts {
   display: flex;
-  justify-content: center
+  justify-content: center;
+  padding: 10px 0;
 }
 
-.viewAllProducts a:hover {
+.viewAllProducts a {
 padding-bottom: 0;
 }
 
 .viewAllProducts a:hover {
-  color: green !important;
-  border-bottom-color: green;
+  color: #215c35 !important;
+  font-weight: 600;
+  border-bottom-color: #e92d36;
 }
 
 .signatureSeriesDesc{
