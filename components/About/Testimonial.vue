@@ -6,7 +6,7 @@
       class="bg"
       src="images/placeholders/1920x1200-0.jpg"
     /><img alt class="bg" src="images/placeholders/1920x1200-1.jpg" /> -->
-      <div class="content half-size colors-f background-75">
+      <div class="content half-size colors-f background-85">
         <div class="container">
           <div class="show-list slogan">
             <div class="show-item">

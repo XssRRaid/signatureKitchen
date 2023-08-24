@@ -13,37 +13,37 @@
           </p>
           <div class="row counters">
             <div class="col-md-3 counter background-25-b">
-              <div class="count player row heading background-10-light highlight">4</div>
-              <div class="caption">Decades</div>
-              <p>In the business</p>
+              <div class="count player row heading background-10-light highlight">40</div>
+              <div class="caption font-weight-800 ">Years</div>
+              <p class="font-weight-700">In the business</p>
             </div>
             <div class="col-md-3 counter background-35-g">
               <div class="count player row heading background-10-light highlight">
                 25+
               </div>
-              <div class="caption">Cities</div>
-              <p>Pan-India</p>
+              <div class="caption font-weight-800">Cities</div>
+              <p class="font-weight-700">Pan-India</p>
             </div>
             <div class="col-md-3 counter background-25-b">
               <div class="count player row heading background-10-light highlight">
                 300+
               </div>
-              <div class="caption">Premium Cookware</div>
-              <p>High-Quality Stainless Steel</p>
+              <div class="caption font-weight-800">Premium Cookware</div>
+              <p class="font-weight-700">High-Quality Stainless Steel</p>
             </div>
             <div class="col-md-3 counter background-35-g">
               <div class="count player row heading background-10-light highlight">
                 3000+
               </div>
-              <div class="caption">Happy Cutomers</div>
-              <p>Across India!</p>
+              <div class="caption font-weight-800">Happy Cutomers</div>
+              <p class="font-weight-700">Across India!</p>
             </div>
           </div>
         </div>
         <div class="container">
           <p class="text-center">
-            <a href="#work" class="text-center underline-text link"
-              >What makes us so popular..</a
+            <a href="#work" class="text-center underline-text text-f extra-font font-weight-800"
+              >What makes us so popular?</a
             >
           </p>
         </div>

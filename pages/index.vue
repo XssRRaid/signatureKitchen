@@ -73,7 +73,7 @@ useHead({
 
     <About />
 
-    <section id="work">
+    <section id="products">
       <div class="view">
         <!-- <img class="bg" src="images/bg/bg-light-L1.jpg" />
         <img class="bg" src="images/bg/bg-L3.jpg" /> -->
@@ -89,12 +89,16 @@ useHead({
               cillum dolore.
             </p> -->
           </div>
+
+          <!-- product gallery -->
           <div
             class="gallery background-a background-60"
             data-default-group="all"
             data-overlay=".gallery-overlay"
           >
             <div class="container-fluid">
+
+          <!-- start: product filter -->
               <div class="filter">
                 <ul class="nav nav-pills text-center">
                   <li><a class="hover-effect" data-group="all" href="#">All</a></li>
@@ -109,9 +113,12 @@ useHead({
                   <li><a class="hover-effect" data-group="xxx" href="#">XXX</a></li>
                 </ul>
               </div>
+          <!-- end: product filter -->
 
-              <div class="row">
+          <div class="row">
                 <div class="grid">
+
+                  <!-- product cards -->
                   <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["design"]'>
                     <a href="#!portfolio/portfolio-item-1.html" class="hover-overlay">
                       <img alt="Project 1" src="images/placeholders/500x400-1.jpg" />

@@ -6275,4 +6275,5 @@ pre::-webkit-scrollbar-thumb,
 a.button:hover {
   color: rgb(235 236 234) !important;
   background-color: rgb(33 92 53 / 75%) !important;
+  font-weight: 600;
 }
