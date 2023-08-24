@@ -42,7 +42,7 @@
         </div>
         <div class="container">
           <p class="text-center">
-            <a href="#work" class="text-center underline-text text-f extra-font font-weight-800"
+            <a href="#bestseller" class="text-center underline-text text-f extra-font font-weight-800"
               >What makes us so popular?</a
             >
           </p>

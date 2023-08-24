@@ -6254,6 +6254,9 @@ pre::-webkit-scrollbar-thumb,
   font-weight: 600;
 }
 
+
+/* custom styling */
+
 #numbers .count::after {
   content: "+";
   display: inline;
@@ -6276,4 +6279,22 @@ a.button:hover {
   color: rgb(235 236 234) !important;
   background-color: rgb(33 92 53 / 75%) !important;
   font-weight: 600;
+}
+
+.viewAllProducts {
+  display: flex;
+  justify-content: center
+}
+
+.viewAllProducts a:hover {
+padding-bottom: 0;
+}
+
+.viewAllProducts a:hover {
+  color: green !important;
+  border-bottom-color: green;
+}
+
+.signatureSeriesDesc{
+  width: 80% !important;
 }
