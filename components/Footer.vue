@@ -2,7 +2,7 @@
   <!-- BEGIN: Footer -->
 
   <div class="main">
-    <footer class="colors-g page-transition non-preloading">
+    <footer class="colors-e background-85 page-transition non-preloading">
       <div class="container scroll-in-animation" data-animation="fadeInDown">
         <div class="row">
           <div class="col-md-3">

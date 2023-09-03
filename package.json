@@ -1,7 +1,6 @@
 {
   "name": "nuxt-app",
   "private": true,
-  
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -13,5 +12,8 @@
     "@nuxt/devtools": "latest",
     "@types/node": "^18.17.0",
     "nuxt": "^3.6.5"
+  },
+  "dependencies": {
+    "nuxt-swiper": "latest"
   }
 }

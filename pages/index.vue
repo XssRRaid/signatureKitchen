@@ -1,9 +1,3 @@
-<script setup>
-useHead({
-  title: "Signature Kitchenware Online Catalog",
-});
-</script>
-
 <template>
   <div class="main">
     <!-- BEGIN: Page content -->
@@ -13,7 +7,11 @@ useHead({
       data-alternative="images/placeholders/1920x1200-0.jpg"
     ></div> -->
 
-    <img width="100%" class="bg full-size" src="images/bg/bg-L3.jpg" />
+    <img
+      width="100%"
+      class="hidden-xs hidden-sm bg full-size d-none"
+      src="images/bg/bg-L3.jpg"
+    />
 
     <!-- <div
       class="video-bg"
@@ -25,10 +23,12 @@ useHead({
       <div class="view">
         <img width="100%" class="bg" src="images/bg/bg-dark-L1.jpg" />
         <img width="100%" class="bg" src="images/bg/bg-dark-L2.jpg" />
-        <div class="content home-mary full-size colors-e text-f background-80">
+        <div class="content home-mary full-size colors-e text-f background-85">
           <div class="container">
-            <div class="textillate text-g heading hidden-xs hidden-sm"
-              data-textillate-options="{loop:true, in:{effect:'flipInY', reverse:false}, out:{effect:'flipOutY', reverse:false}}">
+            <div
+              class="textillate text-g heading hidden-xs hidden-sm"
+              data-textillate-options="{loop:true, in:{effect:'flipInY', reverse:false}, out:{effect:'flipOutY', reverse:false}}"
+            >
               <ul class="texts">
                 <li>Premium Quality Stainless Steel Cookware</li>
                 <li>Elevating Your Culinary Experience!</li>
@@ -56,8 +56,13 @@ useHead({
                   </strong>
                 </p>
                 <p class="">
-                  <a href="#intro" class="button background-60-f heading-f border-hard">Our Product Range</a><a
-                    href="#bestseller" class="button background-60-f heading-f border-hard">Signature Bestsellers!</a>
+                  <a href="#intro" class="button background-60-f heading-f border-hard"
+                    >Our Product Range</a
+                  ><a
+                    href="#bestseller"
+                    class="button background-60-f heading-f border-hard"
+                    >Signature Bestsellers!</a
+                  >
                 </p>
               </div>
             </div>
@@ -74,10 +79,11 @@ useHead({
         <!-- <img class="bg" src="images/bg/bg-light-L1.jpg" />
         <img class="bg" src="images/bg/bg-L3.jpg" /> -->
         <div class="content no-bottom-padding colors-e background-85">
-
           <div class="container">
             <h2 class="text-g"><span class="highlight">Signature</span> Bestsellers</h2>
-            <p class="header-details">Checkout What's Hot &amp; Cooking!</p>
+            <p class="header-details">
+              Checkout What's <span class="link">Hot</span> &amp; Cooking!
+            </p>
             <!-- <p class="lead">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -88,9 +94,12 @@ useHead({
           </div>
 
           <!-- product gallery -->
-          <div class="gallery background-a background-60" data-default-group="all" data-overlay=".gallery-overlay">
+          <div
+            class="gallery background-a background-60"
+            data-default-group="all"
+            data-overlay=".gallery-overlay"
+          >
             <div class="container-fluid">
-
               <!-- start: product filter -->
               <div class="filter">
                 <ul class="nav nav-pills text-center">
@@ -98,7 +107,9 @@ useHead({
                   <li><a class="hover-effect" data-group="web" href="#">Web</a></li>
                   <li><a class="hover-effect" data-group="video" href="#">Video</a></li>
                   <li>
-                    <a class="hover-effect" data-group="photography" href="#">Photography</a>
+                    <a class="hover-effect" data-group="photography" href="#"
+                      >Photography</a
+                    >
                   </li>
                   <li><a class="hover-effect" data-group="design" href="#">Design</a></li>
                   <li><a class="hover-effect" data-group="xxx" href="#">XXX</a></li>
@@ -108,7 +119,6 @@ useHead({
 
               <div class="row">
                 <div class="grid">
-
                   <!-- product cards -->
                   <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["design"]'>
                     <a href="#!portfolio/portfolio-item-1.html" class="hover-overlay">
@@ -117,8 +127,10 @@ useHead({
                         <div class="hidden-xs">
                           <p class="title heading-e">Image</p>
                           <p class="text-center heading-e">
-                            <strong>Excepteur sint lorem ipsum dolor sit amet
-                              consectetur.</strong>
+                            <strong
+                              >Excepteur sint lorem ipsum dolor sit amet
+                              consectetur.</strong
+                            >
                           </p>
                           <p class="text-center">
                             <i class="fa fa-picture-o heading-e"></i>
@@ -128,15 +140,20 @@ useHead({
                     </a>
                   </div>
 
-                  <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "web", "video"]'>
+                  <div
+                    class="item col-md-3 col-sm-4 col-xs-6"
+                    data-groups='["photography", "web", "video"]'
+                  >
                     <a href="#!portfolio/portfolio-item-2.html" class="hover-overlay">
                       <img alt="Project 2" src="images/placeholders/500x400-2.jpg" />
                       <div class="overlay background-90-e">
                         <div class="hidden-xs">
                           <p class="title heading-e">YouTube Video</p>
                           <p class="text-center heading-e">
-                            <strong>Excepteur sint lorem ipsum dolor sit amet
-                              consectetur.</strong>
+                            <strong
+                              >Excepteur sint lorem ipsum dolor sit amet
+                              consectetur.</strong
+                            >
                           </p>
                           <p class="text-center">
                             <i class="fa fa-youtube-square heading-e"></i>
@@ -145,30 +162,42 @@ useHead({
                       </div>
                     </a>
                   </div>
-                  <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "design"]'>
-                    <a href="#!portfolio-item-3.html" class="hover-overlay">
+
+                  <div
+                    class="item col-md-3 col-sm-4 col-xs-6"
+                    data-groups='["photography", "design"]'
+                  >
+                    <a href="#!portfolio/portfolio-item-3.html" class="hover-overlay">
                       <img alt="Project 3" src="images/placeholders/500x400-0.jpg" />
                       <div class="overlay background-90-e">
                         <div class="hidden-xs">
                           <p class="title heading-e">Slider</p>
                           <p class="text-center heading-e">
-                            <strong>Excepteur sint lorem ipsum dolor sit amet
-                              consectetur.</strong>
+                            <strong
+                              >Excepteur sint lorem ipsum dolor sit amet
+                              consectetur.</strong
+                            >
                           </p>
                           <p class="text-center"><i class="fa fa-th heading-e"></i></p>
                         </div>
                       </div>
                     </a>
                   </div>
-                  <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "web", "video"]'>
+
+                  <div
+                    class="item col-md-3 col-sm-4 col-xs-6"
+                    data-groups='["photography", "web", "video"]'
+                  >
                     <a href="#!portfolio-item-4.html" class="hover-overlay">
                       <img alt="Project 4" src="images/placeholders/500x400-1.jpg" />
                       <div class="overlay background-90-e">
                         <div class="hidden-xs">
                           <p class="title heading-e">Vimeo Video</p>
                           <p class="text-center heading-e">
-                            <strong>Excepteur sint lorem ipsum dolor sit amet
-                              consectetur.</strong>
+                            <strong
+                              >Excepteur sint lorem ipsum dolor sit amet
+                              consectetur.</strong
+                            >
                           </p>
                           <p class="text-center">
                             <i class="fa fa-vimeo-square heading-e"></i>
@@ -177,30 +206,42 @@ useHead({
                       </div>
                     </a>
                   </div>
-                  <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "design"]'>
+
+                  <div
+                    class="item col-md-3 col-sm-4 col-xs-6"
+                    data-groups='["photography", "design"]'
+                  >
                     <a href="#!portfolio-item-5.html" class="hover-overlay">
                       <img alt="Project 5" src="images/placeholders/500x400-2.jpg" />
                       <div class="overlay background-90-e">
                         <div class="hidden-xs">
                           <p class="title heading-e">Slider</p>
                           <p class="text-center heading-e">
-                            <strong>Excepteur sint lorem ipsum dolor sit amet
-                              consectetur.</strong>
+                            <strong
+                              >Excepteur sint lorem ipsum dolor sit amet
+                              consectetur.</strong
+                            >
                           </p>
                           <p class="text-center"><i class="fa fa-th heading-e"></i></p>
                         </div>
                       </div>
                     </a>
                   </div>
-                  <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "web", "design"]'>
+
+                  <div
+                    class="item col-md-3 col-sm-4 col-xs-6"
+                    data-groups='["photography", "web", "design"]'
+                  >
                     <a href="#!portfolio-item-6.html" class="hover-overlay">
                       <img alt="Project 6" src="images/placeholders/500x400-0.jpg" />
                       <div class="overlay background-90-e">
                         <div class="hidden-xs">
                           <p class="title heading-e">Image</p>
                           <p class="text-center heading-e">
-                            <strong>Excepteur sint lorem ipsum dolor sit amet
-                              consectetur.</strong>
+                            <strong
+                              >Excepteur sint lorem ipsum dolor sit amet
+                              consectetur.</strong
+                            >
                           </p>
                           <p class="text-center">
                             <i class="fa fa-picture-o heading-e"></i>
@@ -209,15 +250,21 @@ useHead({
                       </div>
                     </a>
                   </div>
-                  <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["design", "video", "web"]'>
+
+                  <div
+                    class="item col-md-3 col-sm-4 col-xs-6"
+                    data-groups='["design", "video", "web"]'
+                  >
                     <a href="#!portfolio-item-7.html" class="hover-overlay">
                       <img alt="Project 7" src="images/placeholders/500x400-1.jpg" />
                       <div class="overlay background-90-e">
                         <div class="hidden-xs">
                           <p class="title heading-e">Vimeo Video</p>
                           <p class="text-center heading-e">
-                            <strong>Excepteur sint lorem ipsum dolor sit amet
-                              consectetur.</strong>
+                            <strong
+                              >Excepteur sint lorem ipsum dolor sit amet
+                              consectetur.</strong
+                            >
                           </p>
                           <p class="text-center">
                             <i class="fa fa-vimeo-square heading-e"></i>
@@ -226,6 +273,7 @@ useHead({
                       </div>
                     </a>
                   </div>
+
                   <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["web"]'>
                     <a href="#!portfolio-item-8.html" class="hover-overlay">
                       <img alt="Project 8" src="images/placeholders/500x400-2.jpg" />
@@ -233,8 +281,10 @@ useHead({
                         <div class="hidden-xs">
                           <p class="title heading-e">Image</p>
                           <p class="text-center heading-e">
-                            <strong>Excepteur sint lorem ipsum dolor sit amet
-                              consectetur.</strong>
+                            <strong
+                              >Excepteur sint lorem ipsum dolor sit amet
+                              consectetur.</strong
+                            >
                           </p>
                           <p class="text-center">
                             <i class="fa fa-picture-o heading-e"></i>
@@ -243,15 +293,21 @@ useHead({
                       </div>
                     </a>
                   </div>
-                  <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "design", "video", "web"]'>
+
+                  <div
+                    class="item col-md-3 col-sm-4 col-xs-6"
+                    data-groups='["photography", "design", "video", "web"]'
+                  >
                     <a href="#!portfolio-item-9.html" class="hover-overlay">
                       <img alt="Project 9" src="images/placeholders/500x400-0.jpg" />
                       <div class="overlay background-90-e">
                         <div class="hidden-xs">
                           <p class="title heading-e">YouTube Video</p>
                           <p class="text-center heading-e">
-                            <strong>Excepteur sint lorem ipsum dolor sit amet
-                              consectetur.</strong>
+                            <strong
+                              >Excepteur sint lorem ipsum dolor sit amet
+                              consectetur.</strong
+                            >
                           </p>
                           <p class="text-center">
                             <i class="fa fa-youtube-square heading-e"></i>
@@ -260,15 +316,21 @@ useHead({
                       </div>
                     </a>
                   </div>
-                  <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "design"]'>
+
+                  <div
+                    class="item col-md-3 col-sm-4 col-xs-6"
+                    data-groups='["photography", "design"]'
+                  >
                     <a href="#!portfolio-item-10.html" class="hover-overlay">
                       <img alt="Project 10" src="images/placeholders/500x400-1.jpg" />
                       <div class="overlay background-90-e">
                         <div class="hidden-xs">
                           <p class="title heading-e">Vimeo Video</p>
                           <p class="text-center heading-e">
-                            <strong>Excepteur sint lorem ipsum dolor sit amet
-                              consectetur.</strong>
+                            <strong
+                              >Excepteur sint lorem ipsum dolor sit amet
+                              consectetur.</strong
+                            >
                           </p>
                           <p class="text-center">
                             <i class="fa fa-vimeo-square heading-e"></i>
@@ -277,15 +339,21 @@ useHead({
                       </div>
                     </a>
                   </div>
-                  <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "web"]'>
+
+                  <div
+                    class="item col-md-3 col-sm-4 col-xs-6"
+                    data-groups='["photography", "web"]'
+                  >
                     <a href="#!portfolio-item-11.html" class="hover-overlay">
                       <img alt="Project 11" src="images/placeholders/500x400-2.jpg" />
                       <div class="overlay background-90-e">
                         <div class="hidden-xs">
                           <p class="title heading-e">Image</p>
                           <p class="text-center heading-e">
-                            <strong>Excepteur sint lorem ipsum dolor sit amet
-                              consectetur.</strong>
+                            <strong
+                              >Excepteur sint lorem ipsum dolor sit amet
+                              consectetur.</strong
+                            >
                           </p>
                           <p class="text-center">
                             <i class="fa fa-picture-o heading-e"></i>
@@ -294,15 +362,21 @@ useHead({
                       </div>
                     </a>
                   </div>
-                  <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["web", "design"]'>
+
+                  <div
+                    class="item col-md-3 col-sm-4 col-xs-6"
+                    data-groups='["web", "design"]'
+                  >
                     <a href="#!portfolio-item-12.html" class="hover-overlay">
                       <img alt="Project 12" src="images/placeholders/500x400-0.jpg" />
                       <div class="overlay background-90-e">
                         <div class="hidden-xs">
                           <p class="title heading-e">Slider</p>
                           <p class="text-center heading-e">
-                            <strong>Excepteur sint lorem ipsum dolor sit amet
-                              consectetur.</strong>
+                            <strong
+                              >Excepteur sint lorem ipsum dolor sit amet
+                              consectetur.</strong
+                            >
                           </p>
                           <p class="text-center"><i class="fa fa-th heading-e"></i></p>
                         </div>
@@ -317,7 +391,6 @@ useHead({
           <div class="viewAllProducts">
             <a class="underline-text heading-c" href="#work">View All Products</a>
           </div>
-
         </div>
       </div>
     </section>
@@ -328,16 +401,26 @@ useHead({
     <!-- Signature Series -->
     <section id="signatureSeries">
       <div class="view" id="who-we-are">
+        <div class="content small-top-padding colors-e background-85 viewAllProducts">
+          <a class="underline-text heading-a" href="#signatureSeries">
+            <h3>
+              Looking for something more <span class="link"><em>Premium</em></span> ?
+            </h3>
+          </a>
+        </div>
+
         <div class="content pane">
           <div class="container-fluid">
             <div class="row">
-
-              <div class="col-md-6 stretch-height pane">
+              <div class="col-md-7 stretch-height pane">
                 <div class="view fluid-height">
                   <!-- <img class="bg" src="images/bg/bg-L7.jpg" />
                 <img class="bg" src="images/bg/bg-light-L1.jpg" /> -->
-                  <div class="content incut colors-b background-90">
-                    <div class="position-middle-center signatureSeriesDesc">
+                  <img class="bg" src="images/bg/bg-L7.jpg" />
+                  <div
+                    class="content justify-content-center d-flex colors-b background-90"
+                  >
+                    <div class="signatureSeriesDesc">
                       <h3 class="text-left link">
                         The <span class="highlight">Signature</span> Series...
                       </h3>
@@ -351,36 +434,331 @@ useHead({
                         rhoncus.
                       </p>
                       <p>
-                        Aenean nisi neque, aliquam ut nibh sit amet, finibus sagittis tortor
-                        aenean consectetur.
+                        Aenean nisi neque, aliquam ut nibh sit amet, finibus sagittis
+                        tortor aenean consectetur.
                       </p>
+
+                      <div class="row">
+                        <div class="col-xs-6 col-md-3 d-flex">
+                          <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                        </div>
+                        <div class="col-xs-6 col-md-3 d-flex">
+                          <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                        </div>
+                        <div class="col-xs-6 col-md-3 d-flex">
+                          <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                        </div>
+                        <div class="col-xs-6 col-md-3 d-flex">
+                          <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="col-md-6 stretch-height pane">
+              <div class="col-md-5 stretch-height pane">
                 <div class="view fluid-height">
-                  <img class="bg" src="images/bg/bg-light-L1.jpg" />
-                  <img class="bg" src="images/bg/bg-L8.jpg" />
-                  <img class="bg" src="images/bg/bg-L7.jpg" />
-                  <div class="content incut colors-d background-25">
+                  <img class="bg" width="auto" src="images/bg/bg-light-L1.jpg" />
+                  <img class="bg" width="auto" src="images/bg/bg-L8.jpg" />
+                  <img class="bg" width="auto" src="images/bg/bg-L7.jpg" />
+                  <div class="content fluid-height colors-d background-25">
                     <div class="position-middle-center text-center">
-                      <a class="button background-c heading-c" href="#work">View Signature Series</a>
+                      <a class="button border-a background-c heading-c" href="#work"
+                        >View Signature Series</a
+                      >
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
 
+        <!-- <div class="colors-f background-85 viewAllProducts">
+          <a class="underline-text heading-a" href="#work">View All Products</a>
+          <a class="button background-c heading-c" href="#work">View Signature Series</a>
+        </div> -->
+      </div>
+    </section>
 
+    <!-- Signature Latest -->
+    <section id="latestGallery">
+      <div class="view">
+        <div class="colors-g background-75 viewAllProducts">
+          <a class="underline-text colors-h background-0" href="#latestGallery">
+            <h3>What's <span class="link">New</span> On Our Shelves?</h3>
+          </a>
+        </div>
+        <!-- <img class="bg" src="images/bg/bg-light-L1.jpg" />
+        <img class="bg" src="images/bg/bg-L3.jpg" /> -->
+        <div class="row no-bottom-padding colors-e background-85">
+          <div class="col-md-8 latestGalleryCardsContainer">
+            <!-- Latest gallery -->
+            <div
+              class="gallery background-a background-60"
+              data-default-group="all"
+              data-overlay=".gallery-overlay"
+            >
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="grid">
+                    <!-- product cards -->
+                    <div class="item col-sm-4 col-xs-6" data-groups='["design"]'>
+                      <a href="#!portfolio/portfolio-item-1.html" class="hover-overlay">
+                        <img alt="Project 1" src="images/placeholders/500x400-1.jpg" />
+                        <div class="overlay background-90-e">
+                          <div class="hidden-xs">
+                            <p class="title heading-e">Image</p>
+                            <p class="text-center heading-e">
+                              <strong
+                                >Excepteur sint lorem ipsum dolor sit amet
+                                consectetur.</strong
+                              >
+                            </p>
+                            <p class="text-center">
+                              <i class="fa fa-picture-o heading-e"></i>
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div
+                      class="item col-sm-4 col-xs-6"
+                      data-groups='["photography", "web", "video"]'
+                    >
+                      <a href="#!portfolio/portfolio-item-2.html" class="hover-overlay">
+                        <img alt="Project 2" src="images/placeholders/500x400-2.jpg" />
+                        <div class="overlay background-90-e">
+                          <div class="hidden-xs">
+                            <p class="title heading-e">YouTube Video</p>
+                            <p class="text-center heading-e">
+                              <strong
+                                >Excepteur sint lorem ipsum dolor sit amet
+                                consectetur.</strong
+                              >
+                            </p>
+                            <p class="text-center">
+                              <i class="fa fa-youtube-square heading-e"></i>
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div
+                      class="item col-sm-4 col-xs-6"
+                      data-groups='["photography", "design"]'
+                    >
+                      <a href="#!portfolio/portfolio-item-3.html" class="hover-overlay">
+                        <img alt="Project 3" src="images/placeholders/500x400-0.jpg" />
+                        <div class="overlay background-90-e">
+                          <div class="hidden-xs">
+                            <p class="title heading-e">Slider</p>
+                            <p class="text-center heading-e">
+                              <strong
+                                >Excepteur sint lorem ipsum dolor sit amet
+                                consectetur.</strong
+                              >
+                            </p>
+                            <p class="text-center"><i class="fa fa-th heading-e"></i></p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div
+                      class="item col-sm-4 col-xs-6"
+                      data-groups='["photography", "web", "video"]'
+                    >
+                      <a href="#!portfolio-item-4.html" class="hover-overlay">
+                        <img alt="Project 4" src="images/placeholders/500x400-1.jpg" />
+                        <div class="overlay background-90-e">
+                          <div class="hidden-xs">
+                            <p class="title heading-e">Vimeo Video</p>
+                            <p class="text-center heading-e">
+                              <strong
+                                >Excepteur sint lorem ipsum dolor sit amet
+                                consectetur.</strong
+                              >
+                            </p>
+                            <p class="text-center">
+                              <i class="fa fa-vimeo-square heading-e"></i>
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div
+                      class="item col-sm-4 col-xs-6"
+                      data-groups='["photography", "design"]'
+                    >
+                      <a href="#!portfolio-item-5.html" class="hover-overlay">
+                        <img alt="Project 5" src="images/placeholders/500x400-2.jpg" />
+                        <div class="overlay background-90-e">
+                          <div class="hidden-xs">
+                            <p class="title heading-e">Slider</p>
+                            <p class="text-center heading-e">
+                              <strong
+                                >Excepteur sint lorem ipsum dolor sit amet
+                                consectetur.</strong
+                              >
+                            </p>
+                            <p class="text-center"><i class="fa fa-th heading-e"></i></p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div
+                      class="item col-sm-4 col-xs-6"
+                      data-groups='["photography", "web", "design"]'
+                    >
+                      <a href="#!portfolio-item-6.html" class="hover-overlay">
+                        <img alt="Project 6" src="images/placeholders/500x400-0.jpg" />
+                        <div class="overlay background-90-e">
+                          <div class="hidden-xs">
+                            <p class="title heading-e">Image</p>
+                            <p class="text-center heading-e">
+                              <strong
+                                >Excepteur sint lorem ipsum dolor sit amet
+                                consectetur.</strong
+                              >
+                            </p>
+                            <p class="text-center">
+                              <i class="fa fa-picture-o heading-e"></i>
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="view">
+              <div class="content small-top-padding no-bottom-padding">
+                <h2 class="hidden-xs hidden-sm text-g latestGalleryTitle">
+                  <p class="highlight">Signature</p>
+                  <p class="">Latest</p>
+                  <p class="">Collection</p>
+                </h2>
+                <p class="hidden-xs hidden-sm text-left small-bottom-padding">
+                  Aenean nisi neque, aliquam ut nibh sit amet, finibus sagittis tortor
+                  aenean consectetur.
+                </p>
+                <p class="latestGalleryTitleButton">
+                  <a
+                    href="#work"
+                    class="button border-link background-lite-b heading-b border-hard"
+                    >View All The Latest</a
+                  >
+                  - or -
+                </p>
+                <p>
+                  <a class="heading font-weight-500" href="#browseCategory">
+                    <h6>Browse By <span class="link">Category</span></h6>
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
     </section>
 
-    <!-- Signature Latest -->
+    <!-- Browse Category -->
+    <section id="browseCategory">
+      <div class="view" id="how-we-work">
+        <div class="content small-top-padding colors-h background-85">
+          <div class="container-fluid">
+            <h3>Browse By <span class="link">Category</span></h3>
+
+            <!-- swiper category carousel -->
+            <div class="row">
+              <Swiper
+                :slidesPerView="1"
+                :spaceBetween="30"
+                :freeMode="true"
+                :pagination="{
+                  clickable: true,
+                }"
+                :breakpoints="{
+                  '476': {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                  },
+                  '640': {
+                    slidesPerView: 3,
+                    spaceBetween: 50,
+                  },
+                  '768': {
+                    slidesPerView: 4,
+                    spaceBetween: 60,
+                  },
+                  '1024': {
+                    slidesPerView: 5,
+                    spaceBetween: 80,
+                  },
+                }"
+                :navigation="true"
+                :modules="modules"
+                class="browseCat"
+              >
+                <swiper-slide class="">
+                  <div class="circle">
+                    <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                  </div>
+                  <p class="title"><span class="underline-text">Experimental</span></p>
+                </swiper-slide>
+                <swiper-slide class="">
+                  <div class="circle">
+                    <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                  </div>
+                  <p class="title"><span class="underline-text">Experimental</span></p>
+                </swiper-slide>
+                <swiper-slide class="">
+                  <div class="circle">
+                    <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                  </div>
+                  <p class="title"><span class="underline-text">Experimental</span></p>
+                </swiper-slide>
+                <swiper-slide class="">
+                  <div class="circle">
+                    <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                  </div>
+                  <p class="title"><span class="underline-text">Experimental</span></p>
+                </swiper-slide>
+                <swiper-slide class="">
+                  <div class="circle">
+                    <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                  </div>
+                  <p class="title"><span class="underline-text">Experimental</span></p>
+                </swiper-slide>
+                <swiper-slide class="">
+                  <div class="circle">
+                    <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                  </div>
+                  <p class="title"><span class="underline-text">Experimental</span></p>
+                </swiper-slide>
+                <swiper-slide class="">
+                  <div class="circle">
+                    <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                  </div>
+                  <p class="title"><span class="underline-text">Experimental</span></p>
+                </swiper-slide>
+                <!-- <SwiperControlsNext /> -->
+              </Swiper>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <Contact />
 
@@ -388,3 +766,53 @@ useHead({
     <!-- <NuxtWelcome /> -->
   </div>
 </template>
+
+<script>
+useHead({
+  title: "Signature Kitchenware Online Catalog",
+});
+
+// Import Swiper styles
+import "swiper/css";
+
+import "swiper/css/pagination";
+
+import { Navigation, Pagination } from "swiper/modules";
+
+// const swiper = useSwiper();
+
+export default {
+  setup() {
+    return {
+      modules: [Navigation, Pagination],
+    };
+  },
+};
+</script>
+
+<style>
+.swiper {
+  width: 100%;
+  height: auto;
+  padding: 40px 60px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+
+  /* Center slide text vertically */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.swiper-slide img {
+  display: block;
+  width: 97%;
+  height: 97%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+</style>

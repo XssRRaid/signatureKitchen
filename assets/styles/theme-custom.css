@@ -6254,9 +6254,6 @@ pre::-webkit-scrollbar-thumb,
   font-weight: 600;
 }
 
-
-/* custom styling */
-
 #numbers .count::after {
   content: "+";
   display: inline;
@@ -6281,22 +6278,106 @@ a.button:hover {
   font-weight: 600;
 }
 
+.button {
+  border-radius: 4px !important;
+}
+
+.latestGalleryTitleButton a.button {
+  border-color: #e92d36 !important;
+}
+
 .viewAllProducts {
   display: flex;
   justify-content: center;
-  padding: 10px 0;
+  padding: 40px 0;
 }
 
 .viewAllProducts a {
 padding-bottom: 0;
 }
 
+.viewAllLatestProducts a:hover h3,
 .viewAllProducts a:hover {
-  color: #215c35 !important;
+  /* color: #215c35 !important; */
   font-weight: 600;
-  border-bottom-color: #e92d36;
+  border-bottom-color: #e92d36 !important;
 }
 
 .signatureSeriesDesc{
   width: 80% !important;
 }
+
+.latestGalleryCardsContainer {
+  padding-left: 0 !important;
+}
+
+.latestGalleryTitle *{
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 100%;
+  text-align: left;
+}
+
+@media (max-width: 991px) {
+  .latestGalleryTitle * {
+    font-size: 35px;
+    line-height: 48px;
+  }
+}
+
+.latestGalleryTitleButton {
+  margin-top: 20px;
+}
+@media (max-width: 991px) {
+  .latestGalleryTitleButton {
+    text-align: center;
+  }
+}
+
+#testimonial .slogan {
+  text-transform: none;
+  line-height: 100%;
+  margin-bottom: 10px;
+}
+
+.testimonialSlider {
+  width: 80%;
+}
+
+.testimonialSlider .author {
+  justify-content: right;
+}
+
+.testimonialSlider .author img {
+ width: 120px;
+ margin: 0;
+}
+
+.testimonialSlider .testimonialSlide {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  transition-duration: 5000ms !important;
+
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {  
+  border: 2px solid #fafafa;
+  border-radius: 4px;
+  padding: 10px 8px;
+  background: #ffffff7a;
+  color: #215c35bd;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  background: #215c35;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
