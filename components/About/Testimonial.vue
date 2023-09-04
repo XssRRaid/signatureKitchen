@@ -21,7 +21,7 @@
           </div>
 
           <p class="text-center big-font">
-            <em>— Lorem ipsum dolor sit amet —</em>
+            <em>— Customer Service Is Always Our Top Priority—</em>
           </p>
 
           <!-- swiper testimonial slider -->
@@ -43,7 +43,7 @@
                 clickable: true,
               }"
               :autoplay="{
-                delay: 2500,
+                delay: 5000,
                 disableOnInteraction: false,
               }"
               :modules="modules"
