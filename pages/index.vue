@@ -24,46 +24,49 @@
         <img width="100%" class="bg" src="images/bg/bg-dark-L1.jpg" />
         <img width="100%" class="bg" src="images/bg/bg-dark-L2.jpg" />
         <div class="content no-top-padding no-bottom-padding colors-a">
-          <div class="container heroContent colors-g background-30 col-md-6">
-            <div
-              class="textillate text-g heading hidden-xs hidden-sm"
-              data-textillate-options="{loop:true, in:{effect:'flipInY', reverse:false}, out:{effect:'flipOutY', reverse:false}}"
-            >
-              <ul class="texts">
-                <li>Premium Quality Stainless Steel Cookware</li>
-                <li>Elevating Your Culinary Experience!</li>
-                <li>The Mark Of Excellence</li>
-                <!-- <li>Elevating Your Culinary Experience!</li>
-                <li>We Are Developers</li>
-                <li>We Are Creative</li> -->
-              </ul>
-            </div>
-            <h2 class="text-left title">
-              <span class="highlight">Signature</span>
-            </h2>
+          <div
+            class="heroContent colors-g background-40 col-xs-8 col-sm-7 col-md-6 col-lg-5"
+          >
+            <div class="heroHeader">
+              <p class="subtitle text-g">Welcome to Our interactive E-Catalog</p>
 
-            <p class="subtitle heading-h">
-              Welcome to the Signature Kitchenware interactive eCatalog.
-            </p>
+              <h2 class="text-left heroTitle">
+                <span class="highlight">Signature</span>
+              </h2>
 
-            <p class="lead text-justify heading-h background-10">
-              Manufacturers &amp; Suppliers of Premium Grade, High-Quality Stainless Steel
-              kitchenware. When it comes to premium quality cookware,
-              <span class="highlight"><em>Signature</em></span> has become the industry
-              leader because of its exceptional services and top-notch products.
-            </p>
-            <div class="row">
-              <div class="col-md-8">
-                <p class="">
-                  <a href="#intro" class="button background-60-f heading-f border-hard"
-                    >Our Product Range</a
-                  ><a
-                    href="#bestseller"
-                    class="button background-60-f heading-f border-hard"
-                    >Signature Bestsellers!</a
-                  >
-                </p>
+              <div
+                class="textillate text-g heading hidden-xs hidden-sm font-weight-500"
+                data-textillate-options="{loop:true, in:{effect:'flipInY', reverse:false}, out:{effect:'flipOutY', reverse:false}}"
+              >
+                <ul class="texts">
+                  <li>Premium Quality Stainless Steel Cookware</li>
+                  <li>Elevating Your Culinary Experience!</li>
+                  <li>The Mark Of Excellence</li>
+                  <!-- <li>Elevating Your Culinary Experience!</li>
+    <li>We Are Developers</li>
+    <li>We Are Creative</li> -->
+                </ul>
               </div>
+            </div>
+
+            <div class="heroBody">
+              <p class="heroText text-justify heading-h background-10">
+                Manufacturers &amp; Suppliers of Premium Grade, High-Quality Stainless
+                Steel kitchenware. When it comes to premium quality cookware,
+                <span class="colors-a link"><em>Signature</em></span> has become the
+                industry leader because of its exceptional services and top-notch
+                products.
+              </p>
+
+              <p class="">
+                <a href="#intro" class="button background-60-f heading-f border-hard"
+                  >Our Product Range</a
+                ><a
+                  href="#bestseller"
+                  class="button background-60-f heading-f border-hard"
+                  >Signature Bestsellers!</a
+                >
+              </p>
             </div>
           </div>
         </div>

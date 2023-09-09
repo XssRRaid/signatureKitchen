@@ -6449,8 +6449,29 @@ span.swiper-pagination-bullet {
 }
 
 .heroContent {
-  padding: 10px 15px;
+  padding: 100px 25px;
   height: 95vh;
-  padding-top: 150px;
+  padding-top: 130px;
   padding-left: 60px;
+  display: grid;
+  grid-auto-rows: min-content;
+  align-content: space-between;
+}
+
+.heroTitle {
+  margin: 0;
+  line-height: 100%;
+}
+
+.heroText {
+  /* margin-top: 3rem; */
+  font-size: 14px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.heroContent .subtitle,
+.heroTitle,
+.heroText {
+    text-shadow: 1px 1px #000;
 }
