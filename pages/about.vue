@@ -2,17 +2,16 @@
   <div class="main">
     <!-- BEGIN: Page content -->
 
-    <!-- <div
-      class="video-bg"
-      data-video="./bg.mp4"
-      data-alternative="images/placeholders/1920x1200img4.jpg"
-    ></div> -->
-
     <img
       width="100%"
       class="hidden-xs hidden-sm bg full-size d-none"
       src="images/bg/bg-L3.jpg"
     />
+
+    <!-- <video width="100%" autoplay class="position">
+      <source src="/bg.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video> -->
 
     <section id="home">
       <div class="view">

@@ -23,8 +23,8 @@
       <div class="view">
         <img width="100%" class="bg" src="images/bg/bg-dark-L1.jpg" />
         <img width="100%" class="bg" src="images/bg/bg-dark-L2.jpg" />
-        <div class="content home-mary full-size colors-e text-f background-85">
-          <div class="container">
+        <div class="content no-top-padding no-bottom-padding colors-a">
+          <div class="container heroContent colors-g background-30 col-md-6">
             <div
               class="textillate text-g heading hidden-xs hidden-sm"
               data-textillate-options="{loop:true, in:{effect:'flipInY', reverse:false}, out:{effect:'flipOutY', reverse:false}}"
@@ -38,23 +38,22 @@
                 <li>We Are Creative</li> -->
               </ul>
             </div>
-            <h1 class="text-left">
+            <h2 class="text-left title">
               <span class="highlight">Signature</span>
-            </h1>
+            </h2>
+
+            <p class="subtitle heading-h">
+              Welcome to the Signature Kitchenware interactive eCatalog.
+            </p>
+
+            <p class="lead text-justify heading-h background-10">
+              Manufacturers &amp; Suppliers of Premium Grade, High-Quality Stainless Steel
+              kitchenware. When it comes to premium quality cookware,
+              <span class="highlight"><em>Signature</em></span> has become the industry
+              leader because of its exceptional services and top-notch products.
+            </p>
             <div class="row">
               <div class="col-md-8">
-                <p class="lead text-left text-e">
-                  Welcome to the Signature Kitchenware interactive eCatalog.
-                </p>
-                <p class="lead text-justify text-e background-10">
-                  <strong>
-                    Manufacturers &amp; Suppliers of Premium Grade, High-Quality Stainless
-                    Steel kitchenware. When it comes to premium quality cookware,
-                    <span class="highlight"><em>Signature</em></span> has become the
-                    industry leader because of its exceptional services and top-notch
-                    products.
-                  </strong>
-                </p>
                 <p class="">
                   <a href="#intro" class="button background-60-f heading-f border-hard"
                     >Our Product Range</a
@@ -109,15 +108,30 @@
               <div class="filter">
                 <ul class="nav nav-pills text-center">
                   <li><a class="hover-effect" data-group="all" href="#">All</a></li>
-                  <li><a class="hover-effect" data-group="web" href="#">Web</a></li>
-                  <li><a class="hover-effect" data-group="video" href="#">Video</a></li>
+                  <li><a class="hover-effect" data-group="web" href="#">Container</a></li>
                   <li>
-                    <a class="hover-effect" data-group="photography" href="#"
-                      >Photography</a
-                    >
+                    <a class="hover-effect" data-group="video" href="#">Spice Box</a>
                   </li>
-                  <li><a class="hover-effect" data-group="design" href="#">Design</a></li>
-                  <li><a class="hover-effect" data-group="xxx" href="#">XXX</a></li>
+                  <li>
+                    <a class="hover-effect" data-group="photography" href="#">Barni</a>
+                  </li>
+                  <li><a class="hover-effect" data-group="design" href="#">Thali</a></li>
+                  <li><a class="hover-effect" data-group="xxx" href="#">Milk Pot</a></li>
+                  <li><a class="hover-effect" data-group="xxx" href="#">Canister</a></li>
+                  <li><a class="hover-effect" data-group="xxx" href="#">Bucket</a></li>
+                  <li><a class="hover-effect" data-group="xxx" href="#">Handi</a></li>
+                  <li><a class="hover-effect" data-group="xxx" href="#">Mug</a></li>
+                  <li>
+                    <a class="hover-effect" data-group="xxx" href="#">Spice Box Plate</a>
+                  </li>
+                  <li><a class="hover-effect" data-group="xxx" href="#">Milk Can</a></li>
+                  <li>
+                    <a class="hover-effect" data-group="xxx" href="#">Multi Kadhai</a>
+                  </li>
+                  <li>
+                    <a class="hover-effect" data-group="xxx" href="#">Dinner Set</a>
+                  </li>
+                  <li><a class="hover-effect" data-group="xxx" href="#">Tiffin</a></li>
                 </ul>
               </div>
               <!-- end: product filter -->
@@ -129,7 +143,7 @@
                     <a href="#!portfolio/portfolio-item-1.html" class="hover-overlay">
                       <img alt="Project 1" src="images/placeholders/500x400-1.jpg" />
                       <div class="overlay background-90-e">
-                        <div class="hidden-xs">
+                        <div class="hidden">
                           <p class="title heading-e">Image</p>
                           <p class="text-center heading-e">
                             <strong
@@ -152,7 +166,7 @@
                     <a href="#!portfolio/portfolio-item-2.html" class="hover-overlay">
                       <img alt="Project 2" src="images/placeholders/500x400-2.jpg" />
                       <div class="overlay background-90-e">
-                        <div class="hidden-xs">
+                        <div class="hidden">
                           <p class="title heading-e">YouTube Video</p>
                           <p class="text-center heading-e">
                             <strong
@@ -175,7 +189,7 @@
                     <a href="#!portfolio/portfolio-item-3.html" class="hover-overlay">
                       <img alt="Project 3" src="images/placeholders/500x400-0.jpg" />
                       <div class="overlay background-90-e">
-                        <div class="hidden-xs">
+                        <div class="hidden">
                           <p class="title heading-e">Slider</p>
                           <p class="text-center heading-e">
                             <strong
@@ -196,7 +210,7 @@
                     <a href="#!portfolio-item-4.html" class="hover-overlay">
                       <img alt="Project 4" src="images/placeholders/500x400-1.jpg" />
                       <div class="overlay background-90-e">
-                        <div class="hidden-xs">
+                        <div class="hidden">
                           <p class="title heading-e">Vimeo Video</p>
                           <p class="text-center heading-e">
                             <strong
@@ -219,7 +233,7 @@
                     <a href="#!portfolio-item-5.html" class="hover-overlay">
                       <img alt="Project 5" src="images/placeholders/500x400-2.jpg" />
                       <div class="overlay background-90-e">
-                        <div class="hidden-xs">
+                        <div class="hidden">
                           <p class="title heading-e">Slider</p>
                           <p class="text-center heading-e">
                             <strong
@@ -240,7 +254,7 @@
                     <a href="#!portfolio-item-6.html" class="hover-overlay">
                       <img alt="Project 6" src="images/placeholders/500x400-0.jpg" />
                       <div class="overlay background-90-e">
-                        <div class="hidden-xs">
+                        <div class="hidden">
                           <p class="title heading-e">Image</p>
                           <p class="text-center heading-e">
                             <strong
@@ -263,7 +277,7 @@
                     <a href="#!portfolio-item-7.html" class="hover-overlay">
                       <img alt="Project 7" src="images/placeholders/500x400-1.jpg" />
                       <div class="overlay background-90-e">
-                        <div class="hidden-xs">
+                        <div class="hidden">
                           <p class="title heading-e">Vimeo Video</p>
                           <p class="text-center heading-e">
                             <strong
@@ -283,7 +297,7 @@
                     <a href="#!portfolio-item-8.html" class="hover-overlay">
                       <img alt="Project 8" src="images/placeholders/500x400-2.jpg" />
                       <div class="overlay background-90-e">
-                        <div class="hidden-xs">
+                        <div class="hidden">
                           <p class="title heading-e">Image</p>
                           <p class="text-center heading-e">
                             <strong
@@ -306,7 +320,7 @@
                     <a href="#!portfolio-item-9.html" class="hover-overlay">
                       <img alt="Project 9" src="images/placeholders/500x400-0.jpg" />
                       <div class="overlay background-90-e">
-                        <div class="hidden-xs">
+                        <div class="hidden">
                           <p class="title heading-e">YouTube Video</p>
                           <p class="text-center heading-e">
                             <strong
@@ -329,7 +343,7 @@
                     <a href="#!portfolio-item-10.html" class="hover-overlay">
                       <img alt="Project 10" src="images/placeholders/500x400-1.jpg" />
                       <div class="overlay background-90-e">
-                        <div class="hidden-xs">
+                        <div class="hidden">
                           <p class="title heading-e">Vimeo Video</p>
                           <p class="text-center heading-e">
                             <strong
@@ -352,7 +366,7 @@
                     <a href="#!portfolio-item-11.html" class="hover-overlay">
                       <img alt="Project 11" src="images/placeholders/500x400-2.jpg" />
                       <div class="overlay background-90-e">
-                        <div class="hidden-xs">
+                        <div class="hidden">
                           <p class="title heading-e">Image</p>
                           <p class="text-center heading-e">
                             <strong
@@ -375,7 +389,7 @@
                     <a href="#!portfolio-item-12.html" class="hover-overlay">
                       <img alt="Project 12" src="images/placeholders/500x400-0.jpg" />
                       <div class="overlay background-90-e">
-                        <div class="hidden-xs">
+                        <div class="hidden">
                           <p class="title heading-e">Slider</p>
                           <p class="text-center heading-e">
                             <strong
@@ -513,7 +527,7 @@
                       <a href="#!portfolio/portfolio-item-1.html" class="hover-overlay">
                         <img alt="Project 1" src="images/placeholders/500x400-1.jpg" />
                         <div class="overlay background-90-e">
-                          <div class="hidden-xs">
+                          <div class="hidden">
                             <p class="title heading-e">Image</p>
                             <p class="text-center heading-e">
                               <strong
@@ -536,7 +550,7 @@
                       <a href="#!portfolio/portfolio-item-2.html" class="hover-overlay">
                         <img alt="Project 2" src="images/placeholders/500x400-2.jpg" />
                         <div class="overlay background-90-e">
-                          <div class="hidden-xs">
+                          <div class="hidden">
                             <p class="title heading-e">YouTube Video</p>
                             <p class="text-center heading-e">
                               <strong
@@ -559,7 +573,7 @@
                       <a href="#!portfolio/portfolio-item-3.html" class="hover-overlay">
                         <img alt="Project 3" src="images/placeholders/500x400-0.jpg" />
                         <div class="overlay background-90-e">
-                          <div class="hidden-xs">
+                          <div class="hidden">
                             <p class="title heading-e">Slider</p>
                             <p class="text-center heading-e">
                               <strong
@@ -580,7 +594,7 @@
                       <a href="#!portfolio-item-4.html" class="hover-overlay">
                         <img alt="Project 4" src="images/placeholders/500x400-1.jpg" />
                         <div class="overlay background-90-e">
-                          <div class="hidden-xs">
+                          <div class="hidden">
                             <p class="title heading-e">Vimeo Video</p>
                             <p class="text-center heading-e">
                               <strong
@@ -603,7 +617,7 @@
                       <a href="#!portfolio-item-5.html" class="hover-overlay">
                         <img alt="Project 5" src="images/placeholders/500x400-2.jpg" />
                         <div class="overlay background-90-e">
-                          <div class="hidden-xs">
+                          <div class="hidden">
                             <p class="title heading-e">Slider</p>
                             <p class="text-center heading-e">
                               <strong
@@ -624,7 +638,7 @@
                       <a href="#!portfolio-item-6.html" class="hover-overlay">
                         <img alt="Project 6" src="images/placeholders/500x400-0.jpg" />
                         <div class="overlay background-90-e">
-                          <div class="hidden-xs">
+                          <div class="hidden">
                             <p class="title heading-e">Image</p>
                             <p class="text-center heading-e">
                               <strong

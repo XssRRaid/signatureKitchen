@@ -6250,6 +6250,12 @@ pre::-webkit-scrollbar-thumb,
   scrollbar-darkshadow-color: #333333;
 }
 
+
+/* Custom Styles */
+body {
+  padding-top: 89px;
+}
+
 .lead {
   font-weight: 600;
 }
@@ -6292,15 +6298,17 @@ a.button:hover {
   padding: 40px 0;
 }
 
-.viewAllProducts a {
+.viewAllProducts a,
+.viewAllProducts h3 {
 padding-bottom: 0;
+border-bottom-width: 2px;
 }
 
 .viewAllLatestProducts a:hover h3,
 .viewAllProducts a:hover {
   /* color: #215c35 !important; */
   font-weight: 600;
-  border-bottom-color: #e92d36 !important;
+  border-bottom-color: #215c35  !important;
 }
 
 .signatureSeriesDesc{
@@ -6432,5 +6440,17 @@ span.swiper-pagination-bullet {
   justify-content: center;
 }
 
+.navbar-brand img {
+  height: 60px;
+}
 
+.position-fixed {
+  position: fixed;
+}
 
+.heroContent {
+  padding: 10px 15px;
+  height: 95vh;
+  padding-top: 150px;
+  padding-left: 60px;
+}

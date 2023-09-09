@@ -36,46 +36,129 @@
             class="browseCat"
           >
             <swiper-slide class="">
-              <div class="circle">
-                <img class="circle" src="images/bg/bg-light-L1.jpg" />
-              </div>
-              <p class="title"><span class="underline-text">Experimental</span></p>
+              <a class="categoryItem">
+                <div class="categoryItemImage">
+                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                </div>
+                <p class="title underline-text categoryItemTitle">Container</p>
+              </a>
             </swiper-slide>
+
             <swiper-slide class="">
-              <div class="circle">
-                <img class="circle" src="images/bg/bg-light-L1.jpg" />
-              </div>
-              <p class="title"><span class="underline-text">Experimental</span></p>
+              <a class="categoryItem">
+                <div class="categoryItemImage">
+                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                </div>
+                <p class="title underline-text categoryItemTitle">Spice Box</p>
+              </a>
             </swiper-slide>
+
             <swiper-slide class="">
-              <div class="circle">
-                <img class="circle" src="images/bg/bg-light-L1.jpg" />
-              </div>
-              <p class="title"><span class="underline-text">Experimental</span></p>
+              <a class="categoryItem">
+                <div class="categoryItemImage">
+                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                </div>
+                <p class="title underline-text categoryItemTitle">Barni</p>
+              </a>
             </swiper-slide>
+
             <swiper-slide class="">
-              <div class="circle">
-                <img class="circle" src="images/bg/bg-light-L1.jpg" />
-              </div>
-              <p class="title"><span class="underline-text">Experimental</span></p>
+              <a class="categoryItem">
+                <div class="categoryItemImage">
+                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                </div>
+                <p class="title underline-text categoryItemTitle">Thali</p>
+              </a>
             </swiper-slide>
+
             <swiper-slide class="">
-              <div class="circle">
-                <img class="circle" src="images/bg/bg-light-L1.jpg" />
-              </div>
-              <p class="title"><span class="underline-text">Experimental</span></p>
+              <a class="categoryItem">
+                <div class="categoryItemImage">
+                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                </div>
+                <p class="title underline-text categoryItemTitle">Milk Pot</p>
+              </a>
             </swiper-slide>
+
             <swiper-slide class="">
-              <div class="circle">
-                <img class="circle" src="images/bg/bg-light-L1.jpg" />
-              </div>
-              <p class="title"><span class="underline-text">Experimental</span></p>
+              <a class="categoryItem">
+                <div class="categoryItemImage">
+                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                </div>
+                <p class="title underline-text categoryItemTitle">Canister</p>
+              </a>
             </swiper-slide>
+
             <swiper-slide class="">
-              <div class="circle">
-                <img class="circle" src="images/bg/bg-light-L1.jpg" />
-              </div>
-              <p class="title"><span class="underline-text">Experimental</span></p>
+              <a class="categoryItem">
+                <div class="categoryItemImage">
+                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                </div>
+                <p class="title underline-text categoryItemTitle">Bucket</p>
+              </a>
+            </swiper-slide>
+
+            <swiper-slide class="">
+              <a class="categoryItem">
+                <div class="categoryItemImage">
+                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                </div>
+                <p class="title underline-text categoryItemTitle">Handi</p>
+              </a>
+            </swiper-slide>
+
+            <swiper-slide class="">
+              <a class="categoryItem">
+                <div class="categoryItemImage">
+                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                </div>
+                <p class="title underline-text categoryItemTitle">Spice Box Plate</p>
+              </a>
+            </swiper-slide>
+
+            <swiper-slide class="">
+              <a class="categoryItem">
+                <div class="categoryItemImage">
+                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                </div>
+                <p class="title underline-text categoryItemTitle">Mug</p>
+              </a>
+            </swiper-slide>
+
+            <swiper-slide class="">
+              <a class="categoryItem">
+                <div class="categoryItemImage">
+                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                </div>
+                <p class="title underline-text categoryItemTitle">Milk Can</p>
+              </a>
+            </swiper-slide>
+
+            <swiper-slide class="">
+              <a class="categoryItem">
+                <div class="categoryItemImage">
+                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                </div>
+                <p class="title underline-text categoryItemTitle">Multi Kadhai</p>
+              </a>
+            </swiper-slide>
+
+            <swiper-slide class="">
+              <a class="categoryItem">
+                <div class="categoryItemImage">
+                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                </div>
+                <p class="title underline-text categoryItemTitle">Dinner Set</p>
+              </a>
+            </swiper-slide>
+
+            <swiper-slide class="">
+              <a class="categoryItem">
+                <div class="categoryItemImage">
+                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                </div>
+                <p class="title underline-text categoryItemTitle">Tiffin</p>
+              </a>
             </swiper-slide>
             <!-- <SwiperControlsNext /> -->
           </Swiper>
@@ -103,3 +186,40 @@ export default {
   },
 };
 </script>
+
+<style>
+.categoryItem {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  cursor: pointer;
+}
+
+.categoryItemImage {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+.categoryItemTitle {
+  border-bottom-width: 0;
+}
+
+.categoryItemTitle,
+.categoryItemImage {
+  transition: all ease-in-out 0.5s;
+}
+
+.categoryItem:hover .categoryItemImage {
+  transform: scale(1.2);
+  padding: 3px;
+}
+
+.categoryItem:hover .categoryItemTitle {
+  /* color: #215c35; */
+  border-bottom-width: 1.5px;
+  border-color: #e92d36;
+}
+</style>
