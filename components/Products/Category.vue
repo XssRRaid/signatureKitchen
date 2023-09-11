@@ -127,8 +127,8 @@
 
             <swiper-slide class="">
               <a class="categoryItem">
-                <div class="categoryItemImage">
-                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                <div class="">
+                  <img class="circle categoryItemImage" src="images/bg/bg-light-L1.jpg" />
                 </div>
                 <p class="title underline-text categoryItemTitle">Milk Can</p>
               </a>
@@ -136,8 +136,8 @@
 
             <swiper-slide class="">
               <a class="categoryItem">
-                <div class="categoryItemImage">
-                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                <div class="">
+                  <img class="circle categoryItemImage" src="images/bg/bg-light-L1.jpg" />
                 </div>
                 <p class="title underline-text categoryItemTitle">Multi Kadhai</p>
               </a>
@@ -145,8 +145,8 @@
 
             <swiper-slide class="">
               <a class="categoryItem">
-                <div class="categoryItemImage">
-                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                <div class="">
+                  <img class="circle categoryItemImage" src="images/bg/bg-light-L1.jpg" />
                 </div>
                 <p class="title underline-text categoryItemTitle">Dinner Set</p>
               </a>
@@ -154,8 +154,8 @@
 
             <swiper-slide class="">
               <a class="categoryItem">
-                <div class="categoryItemImage">
-                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                <div class="">
+                  <img class="circle categoryItemImage" src="images/bg/bg-light-L1.jpg" />
                 </div>
                 <p class="title underline-text categoryItemTitle">Tiffin</p>
               </a>
@@ -198,18 +198,27 @@ export default {
 }
 
 .categoryItemImage {
-  width: 140px;
-  height: 140px;
+  /* width: 140px;
+  height: 140px; */
   border-radius: 50%;
+  width: clamp(70px, 9.06vw, 145px) !important;
+  height: clamp(70px, 9.06vw, 145px) !important;
 }
 
 .categoryItemTitle {
-  border-bottom-width: 0;
+  border-bottom-width: 0 !important;
+  width: 100%;
+}
+
+a.categoryItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .categoryItemTitle,
 .categoryItemImage {
-  transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.3s;
 }
 
 .categoryItem:hover .categoryItemImage {
@@ -218,8 +227,39 @@ export default {
 }
 
 .categoryItem:hover .categoryItemTitle {
-  /* color: #215c35; */
-  border-bottom-width: 1.5px;
-  border-color: #e92d36;
+  color: #e92d36;
+  /* border-bottom-width: 1.5px !important;
+  border-color: #e92d36; */
+}
+
+.categoryItem.categoryItemTitle::after,
+.categoryItem.categoryItemTitle::before {
+  display: inline-block;
+  opacity: 0;
+  transition: all ease 2s;
+}
+
+.categoryItemTitle::before {
+  width: 20px;
+  text-align: right;
+  margin-right: 5px;
+  margin-left: -25px;
+  content: "[";
+  transform: translateX(20px);
+}
+
+.categoryItemTitle::after {
+  width: 20px;
+  text-align: left;
+  margin-left: 5px;
+  margin-right: -25px;
+  content: "]";
+  transform: translateX(-20px);
+}
+
+.categoryItem:hover .categoryItemTitle:after,
+.categoryItem:hover .categoryItemTitle:before {
+  opacity: 1;
+  transform: translateX(0px);
 }
 </style>

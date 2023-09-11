@@ -2,11 +2,7 @@
   <div class="main">
     <!-- BEGIN: Page content -->
 
-    <img
-      width="100%"
-      class="hidden-xs hidden-sm bg full-size d-none"
-      src="images/bg/bg-L3.jpg"
-    />
+    <img class="bg full-size d-none" src="images/bg/bg-L3.jpg" />
 
     <!-- <video width="100%" autoplay class="position">
       <source src="/bg.mp4" type="video/mp4" />

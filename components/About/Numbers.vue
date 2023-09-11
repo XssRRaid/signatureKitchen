@@ -45,7 +45,7 @@
         <div class="container">
           <div class="viewAllProducts">
             <a class="underline-text colors-h background-0" href="#bestseller">
-              <h3>What makes us so <span class="link">popular</span> ?</h3>
+              <h4>What makes us so <span class="link">popular</span> ?</h4>
             </a>
           </div>
           <!-- <p class="text-center viewAllProducts">

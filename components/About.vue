@@ -21,7 +21,7 @@
           <div class="row">
             <div class="col-md-6">
               <h4>
-                <span class="highlight">Premium quality</span>, crafted with elegance…
+                <span class="highlight">Premium quality</span> <br />crafted with elegance
               </h4>
 
               <p class="mb-medium">
