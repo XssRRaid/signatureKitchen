@@ -78,9 +78,9 @@
           href="#"
           ><span></span
         ></a>
-        <a class="navbar-brand" href=""
-          >Signature<span class="highlight">Kitchenware</span></a
-        >
+        <a class="navbar-brand" href="./">
+          <img src="images/signature-logo.png" alt="" />
+        </a>
       </div>
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">

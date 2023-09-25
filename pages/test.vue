@@ -1,9 +1,5 @@
 <template>
   <div>
-    <div
-      class="video-bg"
-      data-video="./bg.mp4"
-      data-alternative="images/placeholders/1920x1200img4.jpg"
-    ></div>
+    <AboutTestimonial />
   </div>
 </template>

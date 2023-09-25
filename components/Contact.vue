@@ -4,10 +4,10 @@
       <img class="bg" src="images/bg/team-bg-1.jpg" />
       <!-- <img class="bg" height="250px" src="images/icons/contact.jpg" /> -->
 
-      <div class="content full-size colors-g">
+      <div class="content full-size colors-e background-65">
         <div class="container">
-          <h2>Contact</h2>
-          <p class="header-details">Keep In Touch</p>
+          <h2>Business Enquiry?</h2>
+          <p class="header-details">Let's Get In Touch!</p>
           <div class="row">
             <div class="col-md-6">
               <div class="text-right scroll-in-animation" data-animation="fadeInLeft">
@@ -44,6 +44,7 @@
                 </p>
               </div>
             </div>
+
             <div class="col-md-6">
               <div class="text-left scroll-in-animation" data-animation="fadeInRight">
                 <form

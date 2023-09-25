@@ -6250,6 +6250,12 @@ pre::-webkit-scrollbar-thumb,
   scrollbar-darkshadow-color: #333333;
 }
 
+
+/* Custom Styles */
+body {
+  padding-top: 89px;
+}
+
 .lead {
   font-weight: 600;
 }
@@ -6275,4 +6281,228 @@ pre::-webkit-scrollbar-thumb,
 a.button:hover {
   color: rgb(235 236 234) !important;
   background-color: rgb(33 92 53 / 75%) !important;
+  font-weight: 600;
+}
+
+.button {
+  border-radius: 4px !important;
+}
+
+.latestGalleryTitleButton a.button {
+  border-color: #e92d36 !important;
+}
+
+.viewAllProducts {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.viewAllProducts a,
+.viewAllProducts h3 {
+padding-bottom: 0;
+border-bottom-width: 2px;
+}
+
+.viewAllLatestProducts a:hover h3,
+.viewAllProducts a:hover {
+  /* color: #215c35 !important; */
+  font-weight: 600;
+  border-bottom-color: #215c35  !important;
+}
+
+.signatureSeriesDesc{
+  width: 80% !important;
+}
+
+
+
+.latestGalleryCardsContainer {
+  padding-left: 0 !important;
+}
+
+.latestGalleryTitle *{
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 100%;
+  text-align: left;
+}
+
+@media (max-width: 991px) {
+  .latestGalleryTitle * {
+    font-size: 35px;
+    line-height: 48px;
+  }
+}
+
+.latestGalleryTitleButton {
+  margin-top: 20px;
+}
+@media (max-width: 991px) {
+  .latestGalleryTitleButton {
+    text-align: center;
+  }
+}
+
+span.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+}
+
+#testimonial .slogan {
+  text-transform: none;
+  line-height: 100%;
+  margin-bottom: 10px;
+}
+
+.testimonialSlider {
+  width: 80%;
+}
+
+.testimonialSlider .author {
+  justify-content: right;
+}
+
+.testimonialSlider .author img {
+ width: 120px;
+ margin: 0;
+}
+
+.testimonialSlider .testimonialSlide {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  transition-duration: 10000ms !important;
+
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {  
+  border: 2px solid #fafafa;
+  border-radius: 4px;
+  padding: 10px 8px;
+  background: #ffffff7a;
+  color: #215c35bd;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  background: #215c35;
+}
+
+.factoryDetails {
+  width: 100% !important;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 30px;
+
+}
+
+.factoryDetails {
+}
+
+.factoryDetails .nav-tabs {
+  display: flex;
+  column-gap: 2px;
+  width: max-content;
+}
+
+.factoryDetails .nav-tabs li {
+  background: rgba(244, 245, 244, 0.7) !important;
+}
+
+.factoryDetails .nav-tabs>li>a {
+  border-radius: 0;
+  margin: 0;
+  font-weight: 600;
+  color: #215c35;
+}
+
+.factoryDetails .nav-tabs li:hover a {
+  color: #e4e5e3;
+}
+
+.factoryDetails .nav-tabs li:hover{
+  background-color: #215c35 !important;
+}
+
+.factoryDetails .nav-tabs>li.active {
+  background-color: #215c35 !important;
+}
+
+.factoryDetails .nav-tabs>li.active>a {
+  color:#e4e5e3;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.navbar-brand img {
+  height: 60px;
+}
+
+.position-fixed {
+  position: fixed;
+}
+
+.sectionHeader {
+  font-size: clamp(35px, 3.75vw, 60px);
+}
+
+.heroContent {
+  padding: 30px 25px;
+  min-height: 600px; 
+  height: 85vh;
+  padding-top: 100px;
+  padding-left: 60px;
+  display: grid;
+  grid-auto-rows: min-content;
+  align-content: space-between;
+}
+
+.heroTitle {
+  margin: 0;
+  line-height: 100%;
+  font-size: clamp(25px, 4.38vw, 70px);
+
+}
+
+.heroTitle .link {
+  color: #e92d36;
+}
+
+.heroTagline *{
+  font-size: clamp(12px, 1vw, 16px);
+}
+
+.heroText {
+  /* margin-top: 3rem; */
+  font-size: clamp(12px, 1vw, 15px);
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.heroLinks {
+  display: flex;
+  column-gap: 20px;
+}
+.heroBody a{
+  border-width: 2px;
+}
+
+.heroBody a:hover{
+  border-color: #e92d36;
+  /* color: #215c35 !important; */
+  /* font-weight: 500; */
+}
+
+.heroContent .subtitle,
+.heroTitle,
+.heroText {
+    text-shadow: 1px 1px #000;
 }

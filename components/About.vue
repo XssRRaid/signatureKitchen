@@ -1,12 +1,10 @@
 <template>
   <section id="intro">
-    <AboutValues />
-
     <!-- about & product range -->
     <div class="view">
-      <img class="bg" src="images/bg/bg-light-L1.jpg" />
-      <img class="bg" src="images/bg/bg-L3.jpg" />
-      <div class="content colors-b background-85">
+      <!-- <img class="bg" src="images/bg/bg-light-L1.jpg" />
+      <img class="bg" src="images/bg/bg-L3.jpg" /> -->
+      <div class="content colors-e background-85">
         <div class="container">
           <!-- <h2>About</h2>
           <p class="header-details">
@@ -23,7 +21,7 @@
           <div class="row">
             <div class="col-md-6">
               <h4>
-                <span class="highlight">Premium quality</span>, crafted with elegance…
+                <span class="highlight">Premium quality</span> <br />crafted with elegance
               </h4>
 
               <p class="mb-medium">
@@ -172,7 +170,7 @@
       </div>
     </div>
 
-    <AboutNumbers />
+    <!-- <AboutNumbers /> -->
 
     <!-- <AboutFeatures />
 

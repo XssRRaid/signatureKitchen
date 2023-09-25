@@ -1,18 +1,13 @@
-<script setup>
-useHead({
-  title: "Signature Kitchenware Online Catalog",
-});
-</script>
-
 <template>
   <div class="main">
     <!-- BEGIN: Page content -->
 
-    <div
-      class="video-bg"
-      data-video="./bg.mp4"
-      data-alternative="images/placeholders/1920x1200img4.jpg"
-    ></div>
+    <img class="bg full-size d-none" src="images/bg/bg-L3.jpg" />
+
+    <!-- <video width="100%" autoplay class="position">
+      <source src="/bg.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video> -->
 
     <section id="home">
       <div class="view">
@@ -52,18 +47,80 @@ useHead({
       </div>
     </section>
 
-    <About />
+    <section id="aboutStory">
+      <div class="view">
+        <!-- <img alt class="bg" src="images/placeholders/1920x1200-1.jpg" /><img
+        alt
+        class="bg"
+        src="images/placeholders/1920x1200-2.jpg"
+      /> -->
+        <div class="content no-bottom-padding colors-e background-85">
+          <div class="container">
+            <h2 class="text-g">About <span class="highlight">Signature</span></h2>
+            <p class="header-details">
+              The Stainless-Steel Kitchenware Industry <span class="link">Leader</span>
+            </p>
+            <p class="lead medium-font-weight text-justify">
+              The stainless steel industry attracts some of the best minds in terms of
+              technology and business acumen, and Butterfly Steels is no exception. Our
+              growth is not just dependent on things such as technology and sound business
+              strategies; it is our people who use the technology. Butterfly Steels has
+              attracted talented leaders who understand the emerging technical, commercial
+              and marketing aspects unique to this business. The skills profile of our
+              employees is comparable with the international industry average. We have
+              developed a culture of learning and promote a system of continued enrichment
+              through acquiring new knowledge and the honing management and leadership
+              skills. We value new and innovative ideas because this drives improvement.
+              Butterfly Steels is constantly evaluating new technology and the positive
+              benefits that it can have on our operations. We also know that technology
+              has to be directed by the brightest minds. At Butterfly Steels, we owe
+              everything to our committed, talented personnel. It is their passion that
+              has helped us grow at a phenomenal rate.
+            </p>
+          </div>
+        </div>
+      </div>
+      <AboutValues />
 
-    <AboutTeam />
+      <AboutHistory />
 
-    <!-- <AboutServices /> -->
+      <AboutNumbers />
+    </section>
 
-    <AboutProcess />
+    <AboutBrands />
+
+    <section id="factory">
+      <AboutFactory />
+    </section>
+
+    <AboutProducts />
 
     <AboutTestimonial />
 
+    <AboutTeam />
+
+    <!-- Browse Category -->
+    <section id="browseCategory">
+      <ProductsCategory />
+    </section>
+
+    <!-- <AboutServices /> -->
+
     <Contact />
+
     <!-- END: Page content -->
     <!-- <NuxtWelcome /> -->
   </div>
 </template>
+
+<script setup>
+useHead({
+  title: "Signature Kitchenware About Company",
+});
+</script>
+
+<style>
+.video-bg {
+  /* position: absolute; */
+}
+</style>

@@ -185,54 +185,5 @@
         </div>
       </div>
     </div>
-
-    <div class="view" id="who-we-are">
-      <div class="content pane">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-6 stretch-height pane">
-              <div class="view fluid-height">
-                <img class="bg" src="images/bg/factory-bg.jpg" />
-
-                <div class="content incut colors-d background-transparent">
-                  <div class="position-middle-center text-center">
-                    <a class="button background-lite-c heading-c" href="#work"
-                      >View Gallery</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 stretch-height pane">
-              <div class="view fluid-height">
-                <div class="content incut colors-g">
-                  <div class="position-middle-center">
-                    <h3 class="text-left">
-                      Our <span class="highlight">Factories</span>
-                    </h3>
-                    <h6 class="subtitle heading-h">
-                      <strong
-                        >Quisque dolor lacus, commodo id hendrerit viverra, euismod in
-                        odio.</strong
-                      >
-                    </h6>
-                    <p>
-                      Aliquam fermentum massa ac est sollicitudin, at ultricies ligula
-                      tristique. Cras finibus, nulla ac convallis feugiat, nisl nisl
-                      lobortis est, eget auctor velit magna vel nunc. Donec nec eros
-                      rhoncus.
-                    </p>
-                    <p>
-                      Aenean nisi neque, aliquam ut nibh sit amet, finibus sagittis tortor
-                      aenean consectetur.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </section>
 </template>
