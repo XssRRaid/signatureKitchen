@@ -10,6 +10,9 @@ export default defineNuxtConfig({
   app: {
     baseURL: "/signatureKitchen/"
 },
+   router: {
+      base: '/signatureKitchen/'
+   },
   // title: 'Hello Nuxt',
   modules: ['nuxt-swiper'],
   // plugins: [{ src: './plugins/vue-carousel.js', mode: 'client' }],
