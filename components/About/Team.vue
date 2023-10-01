@@ -2,7 +2,7 @@
   <section id="team">
     <div class="view">
       <!-- <img class="bg" src="images/bg/team-bg-1.jpg" /> -->
-      <img class="bg" src="images/bg/team-bg-2.jpg" />
+      <img class="bg" src="/images/bg/team-bg-2.jpg" />
 
       <!-- <img alt class="bg" src="images/placeholders/1920x1200-2.jpg" /> -->
       <div class="content colors-b">
@@ -22,7 +22,7 @@
               <div class="hover-overlay">
                 <img
                   alt="Mike Johnson"
-                  src="images/placeholders/380x573-1.jpg"
+                  src="/images/placeholders/380x573-1.jpg"
                   title="Mike Johnson"
                   class="fluid-width"
                 />
@@ -59,7 +59,7 @@
               <div class="hover-overlay">
                 <img
                   alt="Jessica Specter"
-                  src="images/placeholders/380x573-1.jpg"
+                  src="/images/placeholders/380x573-1.jpg"
                   title="Jessica Specter"
                   class="fluid-width"
                 />
@@ -102,7 +102,7 @@
               <div class="hover-overlay">
                 <img
                   alt="Lynda Smith"
-                  src="images/placeholders/380x573-1.jpg"
+                  src="/images/placeholders/380x573-1.jpg"
                   title="Lynda Smith"
                   class="fluid-width"
                 />
@@ -142,7 +142,7 @@
               <div class="hover-overlay">
                 <img
                   alt="Lynda Smith"
-                  src="images/placeholders/380x573-1.jpg"
+                  src="/images/placeholders/380x573-1.jpg"
                   title="Lynda Smith"
                   class="fluid-width"
                 />

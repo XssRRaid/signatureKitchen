@@ -4,7 +4,7 @@
   <!-- Big menu -->
   <div class="ext-nav background-95-h page-transition">
     <div class="view half-height">
-      <img alt class="bg static" src="images/placeholders/1920x1200-2.jpg" />
+      <img alt class="bg static" src="/images/placeholders/1920x1200-2.jpg" />
       <div class="content no-top-padding no-bottom-padding full-height">
         <div class="container-fluid full-height">
           <div class="row full-height">
@@ -79,7 +79,7 @@
           ><span></span
         ></a>
         <a class="navbar-brand" href="./">
-          <img src="images/signature-logo.png" alt="" />
+          <img src="/images/signature-logo.png" alt="" />
         </a>
       </div>
       <div class="collapse navbar-collapse">

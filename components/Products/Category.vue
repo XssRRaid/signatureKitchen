@@ -38,7 +38,7 @@
             <swiper-slide class="">
               <a class="categoryItem">
                 <div class="categoryItemImage">
-                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                  <img class="circle" src="/images/bg/bg-light-L1.jpg" />
                 </div>
                 <p class="title underline-text categoryItemTitle">Container</p>
               </a>
@@ -47,7 +47,7 @@
             <swiper-slide class="">
               <a class="categoryItem">
                 <div class="categoryItemImage">
-                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                  <img class="circle" src="/images/bg/bg-light-L1.jpg" />
                 </div>
                 <p class="title underline-text categoryItemTitle">Spice Box</p>
               </a>
@@ -56,7 +56,7 @@
             <swiper-slide class="">
               <a class="categoryItem">
                 <div class="categoryItemImage">
-                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                  <img class="circle" src="/images/bg/bg-light-L1.jpg" />
                 </div>
                 <p class="title underline-text categoryItemTitle">Barni</p>
               </a>
@@ -65,7 +65,7 @@
             <swiper-slide class="">
               <a class="categoryItem">
                 <div class="categoryItemImage">
-                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                  <img class="circle" src="/images/bg/bg-light-L1.jpg" />
                 </div>
                 <p class="title underline-text categoryItemTitle">Thali</p>
               </a>
@@ -74,7 +74,7 @@
             <swiper-slide class="">
               <a class="categoryItem">
                 <div class="categoryItemImage">
-                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                  <img class="circle" src="/images/bg/bg-light-L1.jpg" />
                 </div>
                 <p class="title underline-text categoryItemTitle">Milk Pot</p>
               </a>
@@ -83,7 +83,7 @@
             <swiper-slide class="">
               <a class="categoryItem">
                 <div class="categoryItemImage">
-                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                  <img class="circle" src="/images/bg/bg-light-L1.jpg" />
                 </div>
                 <p class="title underline-text categoryItemTitle">Canister</p>
               </a>
@@ -92,7 +92,7 @@
             <swiper-slide class="">
               <a class="categoryItem">
                 <div class="categoryItemImage">
-                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                  <img class="circle" src="/images/bg/bg-light-L1.jpg" />
                 </div>
                 <p class="title underline-text categoryItemTitle">Bucket</p>
               </a>
@@ -101,7 +101,7 @@
             <swiper-slide class="">
               <a class="categoryItem">
                 <div class="categoryItemImage">
-                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                  <img class="circle" src="/images/bg/bg-light-L1.jpg" />
                 </div>
                 <p class="title underline-text categoryItemTitle">Handi</p>
               </a>
@@ -110,7 +110,7 @@
             <swiper-slide class="">
               <a class="categoryItem">
                 <div class="categoryItemImage">
-                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                  <img class="circle" src="/images/bg/bg-light-L1.jpg" />
                 </div>
                 <p class="title underline-text categoryItemTitle">Spice Box Plate</p>
               </a>
@@ -119,7 +119,7 @@
             <swiper-slide class="">
               <a class="categoryItem">
                 <div class="categoryItemImage">
-                  <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                  <img class="circle" src="/images/bg/bg-light-L1.jpg" />
                 </div>
                 <p class="title underline-text categoryItemTitle">Mug</p>
               </a>
@@ -128,7 +128,10 @@
             <swiper-slide class="">
               <a class="categoryItem">
                 <div class="">
-                  <img class="circle categoryItemImage" src="images/bg/bg-light-L1.jpg" />
+                  <img
+                    class="circle categoryItemImage"
+                    src="/images/bg/bg-light-L1.jpg"
+                  />
                 </div>
                 <p class="title underline-text categoryItemTitle">Milk Can</p>
               </a>
@@ -137,7 +140,10 @@
             <swiper-slide class="">
               <a class="categoryItem">
                 <div class="">
-                  <img class="circle categoryItemImage" src="images/bg/bg-light-L1.jpg" />
+                  <img
+                    class="circle categoryItemImage"
+                    src="/images/bg/bg-light-L1.jpg"
+                  />
                 </div>
                 <p class="title underline-text categoryItemTitle">Multi Kadhai</p>
               </a>
@@ -146,7 +152,10 @@
             <swiper-slide class="">
               <a class="categoryItem">
                 <div class="">
-                  <img class="circle categoryItemImage" src="images/bg/bg-light-L1.jpg" />
+                  <img
+                    class="circle categoryItemImage"
+                    src="/images/bg/bg-light-L1.jpg"
+                  />
                 </div>
                 <p class="title underline-text categoryItemTitle">Dinner Set</p>
               </a>
@@ -155,7 +164,10 @@
             <swiper-slide class="">
               <a class="categoryItem">
                 <div class="">
-                  <img class="circle categoryItemImage" src="images/bg/bg-light-L1.jpg" />
+                  <img
+                    class="circle categoryItemImage"
+                    src="/images/bg/bg-light-L1.jpg"
+                  />
                 </div>
                 <p class="title underline-text categoryItemTitle">Tiffin</p>
               </a>

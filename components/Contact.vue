@@ -1,7 +1,7 @@
 <template>
   <section id="contact">
     <div class="view">
-      <img class="bg" src="images/bg/team-bg-1.jpg" />
+      <img class="bg" src="/images/bg/team-bg-1.jpg" />
       <!-- <img class="bg" height="250px" src="images/icons/contact.jpg" /> -->
 
       <div class="content full-size colors-e background-65">

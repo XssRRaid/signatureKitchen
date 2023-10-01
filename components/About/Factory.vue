@@ -11,7 +11,7 @@
         <div class="row">
           <div class="col-md-6 pane">
             <div class="view">
-              <img class="bg" src="images/bg/factory-bg.jpg" />
+              <img class="bg" src="/images/bg/factory-bg.jpg" />
 
               <div class="content incut colors-d background-transparent">
                 <div class="position-middle-center text-center">

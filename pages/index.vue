@@ -7,7 +7,7 @@
       data-alternative="images/placeholders/1920x1200-0.jpg"
     ></div> -->
 
-    <img class="bg full-size d-none" src="images/bg/bg-L3.jpg" />
+    <img class="bg full-size d-none" src="/images/bg/bg-L3.jpg" />
 
     <!-- <div
       class="video-bg"
@@ -17,8 +17,8 @@
 
     <section id="home">
       <div class="view">
-        <img class="bg" src="images/bg/bg-dark-L1.jpg" />
-        <img class="bg" src="images/bg/bg-dark-L2.jpg" />
+        <img class="bg" src="/images/bg/bg-dark-L1.jpg" />
+        <img class="bg" src="/images/bg/bg-dark-L2.jpg" />
         <div class="content no-top-padding no-bottom-padding colors-a">
           <div
             class="heroContent colors-g background-40 col-xs-8 col-sm-7 col-md-6 col-lg-5"
@@ -154,7 +154,7 @@
                   <!-- product cards -->
                   <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["design"]'>
                     <a href="#!portfolio/portfolio-item-1.html" class="hover-overlay">
-                      <img alt="Project 1" src="images/placeholders/500x400-1.jpg" />
+                      <img alt="Project 1" src="/images/placeholders/500x400-1.jpg" />
                       <div class="overlay background-90-e">
                         <div class="hidden">
                           <p class="title heading-e">Image</p>
@@ -177,7 +177,7 @@
                     data-groups='["photography", "web", "video"]'
                   >
                     <a href="#!portfolio/portfolio-item-2.html" class="hover-overlay">
-                      <img alt="Project 2" src="images/placeholders/500x400-2.jpg" />
+                      <img alt="Project 2" src="/images/placeholders/500x400-2.jpg" />
                       <div class="overlay background-90-e">
                         <div class="hidden">
                           <p class="title heading-e">YouTube Video</p>
@@ -200,7 +200,7 @@
                     data-groups='["photography", "design"]'
                   >
                     <a href="#!portfolio/portfolio-item-3.html" class="hover-overlay">
-                      <img alt="Project 3" src="images/placeholders/500x400-0.jpg" />
+                      <img alt="Project 3" src="/images/placeholders/500x400-0.jpg" />
                       <div class="overlay background-90-e">
                         <div class="hidden">
                           <p class="title heading-e">Slider</p>
@@ -221,7 +221,7 @@
                     data-groups='["photography", "web", "video"]'
                   >
                     <a href="#!portfolio-item-4.html" class="hover-overlay">
-                      <img alt="Project 4" src="images/placeholders/500x400-1.jpg" />
+                      <img alt="Project 4" src="/images/placeholders/500x400-1.jpg" />
                       <div class="overlay background-90-e">
                         <div class="hidden">
                           <p class="title heading-e">Vimeo Video</p>
@@ -244,7 +244,7 @@
                     data-groups='["photography", "design"]'
                   >
                     <a href="#!portfolio-item-5.html" class="hover-overlay">
-                      <img alt="Project 5" src="images/placeholders/500x400-2.jpg" />
+                      <img alt="Project 5" src="/images/placeholders/500x400-2.jpg" />
                       <div class="overlay background-90-e">
                         <div class="hidden">
                           <p class="title heading-e">Slider</p>
@@ -265,7 +265,7 @@
                     data-groups='["photography", "web", "design"]'
                   >
                     <a href="#!portfolio-item-6.html" class="hover-overlay">
-                      <img alt="Project 6" src="images/placeholders/500x400-0.jpg" />
+                      <img alt="Project 6" src="/images/placeholders/500x400-0.jpg" />
                       <div class="overlay background-90-e">
                         <div class="hidden">
                           <p class="title heading-e">Image</p>
@@ -288,7 +288,7 @@
                     data-groups='["design", "video", "web"]'
                   >
                     <a href="#!portfolio-item-7.html" class="hover-overlay">
-                      <img alt="Project 7" src="images/placeholders/500x400-1.jpg" />
+                      <img alt="Project 7" src="/images/placeholders/500x400-1.jpg" />
                       <div class="overlay background-90-e">
                         <div class="hidden">
                           <p class="title heading-e">Vimeo Video</p>
@@ -308,7 +308,7 @@
 
                   <div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["web"]'>
                     <a href="#!portfolio-item-8.html" class="hover-overlay">
-                      <img alt="Project 8" src="images/placeholders/500x400-2.jpg" />
+                      <img alt="Project 8" src="/images/placeholders/500x400-2.jpg" />
                       <div class="overlay background-90-e">
                         <div class="hidden">
                           <p class="title heading-e">Image</p>
@@ -331,7 +331,7 @@
                     data-groups='["photography", "design", "video", "web"]'
                   >
                     <a href="#!portfolio-item-9.html" class="hover-overlay">
-                      <img alt="Project 9" src="images/placeholders/500x400-0.jpg" />
+                      <img alt="Project 9" src="/images/placeholders/500x400-0.jpg" />
                       <div class="overlay background-90-e">
                         <div class="hidden">
                           <p class="title heading-e">YouTube Video</p>
@@ -354,7 +354,7 @@
                     data-groups='["photography", "design"]'
                   >
                     <a href="#!portfolio-item-10.html" class="hover-overlay">
-                      <img alt="Project 10" src="images/placeholders/500x400-1.jpg" />
+                      <img alt="Project 10" src="/images/placeholders/500x400-1.jpg" />
                       <div class="overlay background-90-e">
                         <div class="hidden">
                           <p class="title heading-e">Vimeo Video</p>
@@ -377,7 +377,7 @@
                     data-groups='["photography", "web"]'
                   >
                     <a href="#!portfolio-item-11.html" class="hover-overlay">
-                      <img alt="Project 11" src="images/placeholders/500x400-2.jpg" />
+                      <img alt="Project 11" src="/images/placeholders/500x400-2.jpg" />
                       <div class="overlay background-90-e">
                         <div class="hidden">
                           <p class="title heading-e">Image</p>
@@ -400,7 +400,7 @@
                     data-groups='["web", "design"]'
                   >
                     <a href="#!portfolio-item-12.html" class="hover-overlay">
-                      <img alt="Project 12" src="images/placeholders/500x400-0.jpg" />
+                      <img alt="Project 12" src="/images/placeholders/500x400-0.jpg" />
                       <div class="overlay background-90-e">
                         <div class="hidden">
                           <p class="title heading-e">Slider</p>
@@ -448,7 +448,7 @@
                 <div class="view fluid-height">
                   <!-- <img class="bg" src="images/bg/bg-L7.jpg" />
                 <img class="bg" src="images/bg/bg-light-L1.jpg" /> -->
-                  <img class="bg" src="images/bg/bg-L7.jpg" />
+                  <img class="bg" src="/images/bg/bg-L7.jpg" />
                   <div
                     class="content justify-content-center d-flex colors-b background-90"
                   >
@@ -472,16 +472,16 @@
 
                       <div class="row">
                         <div class="col-xs-6 col-md-3 d-flex">
-                          <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                          <img class="circle" src="/images/bg/bg-light-L1.jpg" />
                         </div>
                         <div class="col-xs-6 col-md-3 d-flex">
-                          <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                          <img class="circle" src="/images/bg/bg-light-L1.jpg" />
                         </div>
                         <div class="col-xs-6 col-md-3 d-flex">
-                          <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                          <img class="circle" src="/images/bg/bg-light-L1.jpg" />
                         </div>
                         <div class="col-xs-6 col-md-3 d-flex">
-                          <img class="circle" src="images/bg/bg-light-L1.jpg" />
+                          <img class="circle" src="/images/bg/bg-light-L1.jpg" />
                         </div>
                       </div>
                     </div>
@@ -491,9 +491,9 @@
 
               <div class="col-md-5 stretch-height pane">
                 <div class="view fluid-height">
-                  <img class="bg" width="auto" src="images/bg/bg-light-L1.jpg" />
-                  <img class="bg" width="auto" src="images/bg/bg-L8.jpg" />
-                  <img class="bg" width="auto" src="images/bg/bg-L7.jpg" />
+                  <img class="bg" width="auto" src="/images/bg/bg-light-L1.jpg" />
+                  <img class="bg" width="auto" src="/images/bg/bg-L8.jpg" />
+                  <img class="bg" width="auto" src="/images/bg/bg-L7.jpg" />
                   <div class="content fluid-height colors-d background-25">
                     <div class="position-middle-center text-center">
                       <a class="button border-a background-c heading-c" href="#work"
@@ -538,7 +538,7 @@
                     <!-- product cards -->
                     <div class="item col-sm-4 col-xs-6" data-groups='["design"]'>
                       <a href="#!portfolio/portfolio-item-1.html" class="hover-overlay">
-                        <img alt="Project 1" src="images/placeholders/500x400-1.jpg" />
+                        <img alt="Project 1" src="/images/placeholders/500x400-1.jpg" />
                         <div class="overlay background-90-e">
                           <div class="hidden">
                             <p class="title heading-e">Image</p>
@@ -561,7 +561,7 @@
                       data-groups='["photography", "web", "video"]'
                     >
                       <a href="#!portfolio/portfolio-item-2.html" class="hover-overlay">
-                        <img alt="Project 2" src="images/placeholders/500x400-2.jpg" />
+                        <img alt="Project 2" src="/images/placeholders/500x400-2.jpg" />
                         <div class="overlay background-90-e">
                           <div class="hidden">
                             <p class="title heading-e">YouTube Video</p>
@@ -584,7 +584,7 @@
                       data-groups='["photography", "design"]'
                     >
                       <a href="#!portfolio/portfolio-item-3.html" class="hover-overlay">
-                        <img alt="Project 3" src="images/placeholders/500x400-0.jpg" />
+                        <img alt="Project 3" src="/images/placeholders/500x400-0.jpg" />
                         <div class="overlay background-90-e">
                           <div class="hidden">
                             <p class="title heading-e">Slider</p>
@@ -605,7 +605,7 @@
                       data-groups='["photography", "web", "video"]'
                     >
                       <a href="#!portfolio-item-4.html" class="hover-overlay">
-                        <img alt="Project 4" src="images/placeholders/500x400-1.jpg" />
+                        <img alt="Project 4" src="/images/placeholders/500x400-1.jpg" />
                         <div class="overlay background-90-e">
                           <div class="hidden">
                             <p class="title heading-e">Vimeo Video</p>
@@ -628,7 +628,7 @@
                       data-groups='["photography", "design"]'
                     >
                       <a href="#!portfolio-item-5.html" class="hover-overlay">
-                        <img alt="Project 5" src="images/placeholders/500x400-2.jpg" />
+                        <img alt="Project 5" src="/images/placeholders/500x400-2.jpg" />
                         <div class="overlay background-90-e">
                           <div class="hidden">
                             <p class="title heading-e">Slider</p>
@@ -649,7 +649,7 @@
                       data-groups='["photography", "web", "design"]'
                     >
                       <a href="#!portfolio-item-6.html" class="hover-overlay">
-                        <img alt="Project 6" src="images/placeholders/500x400-0.jpg" />
+                        <img alt="Project 6" src="/images/placeholders/500x400-0.jpg" />
                         <div class="overlay background-90-e">
                           <div class="hidden">
                             <p class="title heading-e">Image</p>

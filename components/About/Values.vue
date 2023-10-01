@@ -1,7 +1,7 @@
 <template>
   <div class="view">
     <!-- <img class="bg" src="images/bg/bg-S1.jpg" /> -->
-    <img class="bg" src="images/bg/bg-L7.jpg" />
+    <img class="bg" src="/images/bg/bg-L7.jpg" />
 
     <div class="content pane">
       <div class="container-fluid">

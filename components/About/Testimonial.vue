@@ -1,7 +1,7 @@
 <template>
   <section id="testimonial">
     <div class="view">
-      <img class="bg" src="images/bg/bg-L7.jpg" />
+      <img class="bg" src="/images/bg/bg-L7.jpg" />
 
       <div class="content no-top-padding no-bottom-padding colors-g background-95">
         <div class="container">
@@ -74,7 +74,7 @@
                       class="circle"
                       height="120px"
                       width="120px"
-                      src="images/bg/bg-light-L1.jpg"
+                      src="/images/bg/bg-light-L1.jpg"
                     />
                   </div>
                 </div>
@@ -103,7 +103,7 @@
                       class="circle"
                       height="120px"
                       width="120px"
-                      src="images/bg/bg-light-L1.jpg"
+                      src="/images/bg/bg-light-L1.jpg"
                     />
                   </div>
                 </div>
@@ -131,7 +131,7 @@
                       class="circle"
                       height="120px"
                       width="120px"
-                      src="images/bg/bg-light-L1.jpg"
+                      src="/images/bg/bg-light-L1.jpg"
                     />
                   </div>
                 </div>

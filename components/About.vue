@@ -4,7 +4,7 @@
     <div class="view">
       <!-- <img class="bg" src="images/bg/bg-light-L1.jpg" />
       <img class="bg" src="images/bg/bg-L3.jpg" /> -->
-      <img class="bg" src="images/bg/bg-L3.jpg" />
+      <img class="bg" src="/images/bg/bg-L3.jpg" />
       <div class="content colors-e background-75">
         <div class="container">
           <!-- <h2>About</h2>

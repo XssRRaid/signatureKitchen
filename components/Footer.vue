@@ -61,7 +61,7 @@
                   title="Melbourne Meetup by Envato, on Flickr"
                   ><img
                     class="fluid-width"
-                    src="images/placeholders/150x150-1.jpg"
+                    src="/images/placeholders/150x150-1.jpg"
                     alt="Melbourne Meetup"
                 /></a>
               </div>
@@ -72,7 +72,7 @@
                   title="Around the Envato Office - Highfive! by Envato, on Flickr"
                   ><img
                     class="fluid-width"
-                    src="images/placeholders/150x150-2.jpg"
+                    src="/images/placeholders/150x150-2.jpg"
                     alt="Around the Envato Office - Highfive!"
                 /></a>
               </div>
@@ -83,7 +83,7 @@
                   title="Melbourne Meetup by Envato, on Flickr"
                   ><img
                     class="fluid-width"
-                    src="images/placeholders/150x150-1.jpg"
+                    src="/images/placeholders/150x150-1.jpg"
                     alt="Melbourne Meetup"
                 /></a>
               </div>
@@ -94,7 +94,7 @@
                   title="Around the Envato Office - Becca by Envato, on Flickr"
                   ><img
                     class="fluid-width"
-                    src="images/placeholders/150x150-2.jpg"
+                    src="/images/placeholders/150x150-2.jpg"
                     alt="Around the Envato Office - Becca"
                 /></a>
               </div>
@@ -105,7 +105,7 @@
                   title="Around the Envato Office - Ben &amp; Jane by Envato, on Flickr"
                   ><img
                     class="fluid-width"
-                    src="images/placeholders/150x150-1.jpg"
+                    src="/images/placeholders/150x150-1.jpg"
                     alt="Around the Envato Office - Ben &amp; Jane"
                 /></a>
               </div>
@@ -116,7 +116,7 @@
                   title="Around the Envato Office - Selina by Envato, on Flickr"
                   ><img
                     class="fluid-width"
-                    src="images/placeholders/150x150-2.jpg"
+                    src="/images/placeholders/150x150-2.jpg"
                     alt="Around the Envato Office - Selina"
                 /></a>
               </div>

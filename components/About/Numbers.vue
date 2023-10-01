@@ -1,7 +1,7 @@
 <template>
   <section id="numbers">
     <div class="view">
-      <img class="bg" src="images/bg/bg-L9.jpg" />
+      <img class="bg" src="/images/bg/bg-L9.jpg" />
       <div class="content half-size colors-g background-60">
         <div class="container-fluid">
           <h3>

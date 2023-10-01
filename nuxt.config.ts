@@ -2,10 +2,7 @@ import { client } from "process";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  mode: 'static',
-   router: {
-      base: '/signatureKitchen/'
-   },
+  target: 'static',
   // title: 'Hello Nuxt',
   modules: ['nuxt-swiper'],
   // plugins: [{ src: './plugins/vue-carousel.js', mode: 'client' }],
