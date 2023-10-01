@@ -6506,3 +6506,7 @@ span.swiper-pagination-bullet {
 .heroText {
     text-shadow: 1px 1px #000;
 }
+
+.skillbars .skillbar-title span {
+  width: max-content;
+}

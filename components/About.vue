@@ -4,7 +4,8 @@
     <div class="view">
       <!-- <img class="bg" src="images/bg/bg-light-L1.jpg" />
       <img class="bg" src="images/bg/bg-L3.jpg" /> -->
-      <div class="content colors-e background-85">
+      <img class="bg" src="images/bg/bg-L3.jpg" />
+      <div class="content colors-e background-75">
         <div class="container">
           <!-- <h2>About</h2>
           <p class="header-details">
@@ -19,12 +20,21 @@
           </p> -->
 
           <div class="row">
-            <div class="col-md-6">
-              <h4>
-                <span class="highlight">Premium quality</span> <br />crafted with elegance
-              </h4>
+            <div class="col-xs-12 mb-medium">
+              <h3 class="header-details">
+                <span class="highlight"
+                  >Premium Quality <span class="link">Stainless</span> Steel</span
+                >
+              </h3>
+              <p class="header-details">
+                Crafted With <span class="link">Elegance</span>
+              </p>
+              <!-- 
+              <h4 class="text-center">
+                <span class="highlight">Premium quality</span> crafted with elegance
+              </h4> -->
 
-              <p class="mb-medium">
+              <p class="mb-medium text-center">
                 <strong>
                   Our products are durable and crafted by highly skilled professionals.
                   Our organisation is driven by an unwavering commitment to quality,
@@ -133,21 +143,23 @@
                 </div>
               </div> -->
 
-              <ul class="nav nav-tabs background-lite-b">
-                <li class="active"><a href="#html5" data-toggle="tab">Our Story</a></li>
-                <li class=""><a href="#css3" data-toggle="tab">Our Promise</a></li>
-                <li class=""><a href="#jquery-skill" data-toggle="tab">The Team</a></li>
-                <li class="">
-                  <a href="#wordpress" data-toggle="tab">The Future</a>
-                </li>
-              </ul>
+              <div class="d-flex aboutIntroLinks">
+                <a href="#html5" class="heading-highlight hover-effect">Our Story</a>
+                <a href="#css3" class="heading-highlight hover-effect"
+                  >Our Infrastructure</a
+                >
+                <a href="#jquery-skill" class="heading-highlight hover-effect"
+                  >Our Team</a
+                >
+                <a href="#wordpress" class="heading-highlight hover-effect">The Future</a>
+              </div>
             </div>
 
-            <div class="col-md-6" id="product-range">
+            <div class="col-xs-12" id="product-range">
               <AboutProductRange />
             </div>
 
-            <div class="row">
+            <!-- <div class="row">
               <div class="col-md-6">
                 <p class="text-center">
                   <a
@@ -164,7 +176,7 @@
                   >
                 </p>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -177,3 +189,15 @@
     <AboutHowWeWork /> -->
   </section>
 </template>
+
+<style>
+.aboutIntroLinks {
+  justify-content: center;
+  column-gap: 24px;
+}
+
+.aboutIntroLinks a {
+  color: #215c35;
+  font-weight: 600;
+}
+</style>
