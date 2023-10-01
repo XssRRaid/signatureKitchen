@@ -25,27 +25,27 @@ useHead({
     },
     {
       body: true,
-      src: "signatureKitchen/js/bower_components/less.js/dist/less.min.js",
+      src: "/js/bower_components/less.js/dist/less.min.js",
     },
     {
       body: true,
-      src: "signatureKitchen/js/bower_components/jquery/dist/jquery.min.js",
+      src: "/js/bower_components/jquery/dist/jquery.min.js",
     },
     {
       body: true,
-      src: "signatureKitchen/js/lib/tween/tween.min.js",
+      src: "/js/lib/tween/tween.min.js",
     },
     {
       body: true,
-      src: "signatureKitchen/js/bootstrap/dist/js/bootstrap.min.js",
+      src: "/js/bootstrap/dist/js/bootstrap.min.js",
     },
     {
       body: true,
-      src: "signatureKitchen/js/lib/modernizr-edited.js",
+      src: "/js/lib/modernizr-edited.js",
     },
     {
       body: true,
-      src: "signatureKitchen/js/bower_components/jquery-cookie/jquery.cookie.js",
+      src: "/js/bower_components/jquery-cookie/jquery.cookie.js",
     },
     {
       body: true,
@@ -54,35 +54,35 @@ useHead({
     {
       body: true,
       src:
-        "signatureKitchen/js/bower_components/jqBootstrapValidation/dist/jqBootstrapValidation-1.3.7.min.js",
+        "/js/bower_components/jqBootstrapValidation/dist/jqBootstrapValidation-1.3.7.min.js",
     },
     {
       body: true,
-      src: "signatureKitchen/js/bower_components/minicolors/jquery.minicolors.min.js",
+      src: "/js/bower_components/minicolors/jquery.minicolors.min.js",
     },
     {
       body: true,
-      src: "signatureKitchen/js/bower_components/slick.js/slick/slick.min.js",
+      src: "/js/bower_components/slick.js/slick/slick.min.js",
     },
     {
       body: true,
-      src: "signatureKitchen/js/bower_components/shufflejs/dist/jquery.shuffle.min.js",
+      src: "/js/bower_components/shufflejs/dist/jquery.shuffle.min.js",
     },
     {
       body: true,
-      src: "signatureKitchen/js/bower_components/textillate/assets/jquery.lettering.js",
+      src: "/js/bower_components/textillate/assets/jquery.lettering.js",
     },
     {
       body: true,
-      src: "signatureKitchen/js/bower_components/textillate/assets/jquery.fittext.js",
+      src: "/js/bower_components/textillate/assets/jquery.fittext.js",
     },
     {
       body: true,
-      src: "signatureKitchen/js/bower_components/textillate/jquery.textillate.js",
+      src: "/js/bower_components/textillate/jquery.textillate.js",
     },
     {
       body: true,
-      src: "signatureKitchen/js/lib/prism/prism.js",
+      src: "/js/lib/prism/prism.js",
     },
     {
       body: true,
@@ -118,7 +118,7 @@ useHead({
     },
     {
       body: true,
-      src: "signatureKitchen/js/scripts/script2.js",
+      src: "/js/scripts/script2.js",
     },
   ],
   bodyAttrs: { class: `state1 background-100-e` },
