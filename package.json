@@ -2,6 +2,8 @@
   "name": "nuxt-app",
   "private": true,
   "scripts": {
+    "predeploy": "nuxt generate",
+"deploy": "gh-pages -d .output/public",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
