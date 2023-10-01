@@ -94,7 +94,10 @@
         <img class="bg" src="images/bg/bg-L3.jpg" /> -->
         <div class="content no-bottom-padding colors-e background-85">
           <div class="container">
-            <h2 class="text-g"><span class="highlight">Signature</span> Bestsellers</h2>
+            <h2 class="text-g sectionHeader">
+              <span class="highlight">Signature </span>
+              <span class="link">Bestsellers</span>
+            </h2>
             <p class="header-details">
               Checkout What's <span class="link">Hot</span> &amp; Cooking!
             </p>

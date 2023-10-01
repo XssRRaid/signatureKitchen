@@ -2,7 +2,7 @@
   <section id="numbers">
     <div class="view">
       <img class="bg" src="images/bg/bg-L9.jpg" />
-      <div class="content no-bottom-padding half-size colors-g background-60">
+      <div class="content half-size colors-g background-60">
         <div class="container-fluid">
           <h3>
             Because <span class="heading-h font-italic">Happiness</span>, is a steady
@@ -42,20 +42,13 @@
             </div>
           </div>
         </div>
-        <div class="container">
+        <!-- <div class="container">
           <div class="viewAllProducts">
             <a class="underline-text colors-h background-0" href="#bestseller">
               <h4>What makes us so <span class="link">popular</span> ?</h4>
             </a>
           </div>
-          <!-- <p class="text-center viewAllProducts">
-            <a
-              href="#bestseller"
-              class="text-center underline-text text-f extra-font font-weight-800"
-              >What makes us so popular?</a
-            >
-          </p> -->
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
