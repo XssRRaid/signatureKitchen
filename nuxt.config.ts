@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   generate:{
     nojekyll: true, //not working on this version
   },
-  ssr: true, //server side rendered enabled //When true
+  // ssr: true, //server side rendered enabled //When true
   target: "static", 
 //   app: {
 //     baseURL: "/signatureKitchen/"
