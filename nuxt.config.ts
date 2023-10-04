@@ -7,12 +7,12 @@ export default defineNuxtConfig({
   },
   ssr: true, //server side rendered enabled //When true
   target: "static", 
-//   app: {
-//     baseURL: "/signatureKitchen/"
-// },
-  //  router: {
-  //     base: '/signatureKitchen/'
-  //  },
+  app: {
+    baseURL: "/signatureKitchen/"
+},
+   router: {
+      base: '/signatureKitchen/'
+   },
   // title: 'Hello Nuxt',
   modules: ['nuxt-swiper'],
   // plugins: [{ src: './plugins/vue-carousel.js', mode: 'client' }],
