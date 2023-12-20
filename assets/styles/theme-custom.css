@@ -6434,21 +6434,6 @@ span.swiper-pagination-bullet {
   color:#e4e5e3;
 }
 
-.d-flex {
-  display: flex;
-}
-
-.justify-content-center {
-  justify-content: center;
-}
-
-.navbar-brand img {
-  height: 60px;
-}
-
-.position-fixed {
-  position: fixed;
-}
 
 .sectionHeader {
   font-size: clamp(35px, 3.75vw, 60px);
@@ -6457,27 +6442,61 @@ span.swiper-pagination-bullet {
 .heroContent {
   padding: 30px 25px;
   min-height: 600px; 
-  height: 85vh;
-  padding-top: 100px;
-  padding-left: 60px;
+  height: 88vh;
   display: grid;
-  grid-auto-rows: min-content;
-  align-content: space-between;
+  /* grid-auto-rows: min-content;
+  align-content: space-between; */
+}
+
+@media (min-width: 768px) {
+  .heroContent {
+    /* padding-top: 100px; */
+    padding-left: 60px;
+  }
+  
+}
+
+.heroHeader, .heroBody {
+  align-self: end;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+.heroHeader {
+  grid-row-gap: 20px;
+}
+
+.heroBody {
+  grid-row-gap: 15px;
 }
 
 .heroTitle {
   margin: 0;
-  line-height: 100%;
-  font-size: clamp(25px, 4.38vw, 70px);
+  /* line-height: 100%; */
+  display: grid;
+}
 
+.heroTitle .highlight {
+  font-size: clamp(25px, 4.38vw, 70px);
+  line-height: clamp(25px, 4.38vw, 70px);
+  margin-bottom: 0;
 }
 
 .heroTitle .link {
   color: #e92d36;
+  font-size: clamp(15px, 2.8vw, 45px);
+  line-height: clamp(15px, 2.8vw, 45px);
+  margin-top: 0;
 }
 
-.heroTagline *{
-  font-size: clamp(12px, 1vw, 16px);
+.heroIcons img {
+  width: clamp(100px, 9.37vw, 300px);
+}
+
+.heroTagline * {
+  font-size: clamp(12px, 1.25vw, 18px);
+  font-weight: 700;
 }
 
 .heroText {
@@ -6505,6 +6524,7 @@ span.swiper-pagination-bullet {
 .heroTitle,
 .heroText {
     text-shadow: 1px 1px #000;
+    text-align: center;
 }
 
 .skillbars .skillbar-title span {

@@ -36,12 +36,6 @@
           that is redefining stainless steel quality standards in the industry.
         </p>
       </div>
-
-      <div class="viewAllProducts">
-        <a href="#numbers" class="underline-text">
-          <h3>Our <span class="link">Track-Record</span> So Far..</h3>
-        </a>
-      </div>
     </div>
   </div>
 </template>

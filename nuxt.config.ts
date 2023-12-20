@@ -7,9 +7,9 @@ export default defineNuxtConfig({
   },
   ssr: true, //server side rendered enabled //When true
   target: "static", 
-  app: {
-    baseURL: "/signatureKitchen/"
-},
+//   app: {
+//     baseURL: "/signatureKitchen/"
+// },
    router: {
       base: '/signatureKitchen/'
    },

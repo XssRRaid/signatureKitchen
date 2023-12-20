@@ -48,6 +48,14 @@
     </section>
 
     <section id="aboutStory">
+      <AboutHistory />
+
+      <AboutTestimonial />
+
+      <AboutBrands />
+
+      <AboutValues />
+
       <div class="view">
         <!-- <img alt class="bg" src="images/placeholders/1920x1200-1.jpg" /><img
         alt
@@ -80,24 +88,17 @@
           </div>
         </div>
       </div>
-      <AboutValues />
-
-      <AboutHistory />
 
       <AboutNumbers />
     </section>
 
-    <AboutBrands />
+    <AboutTeam />
 
     <section id="factory">
       <AboutFactory />
     </section>
 
     <AboutProducts />
-
-    <AboutTestimonial />
-
-    <AboutTeam />
 
     <!-- Browse Category -->
     <section id="browseCategory">

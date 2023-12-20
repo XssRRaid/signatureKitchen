@@ -63,7 +63,7 @@
     role="navigation"
     id="top-nav"
   >
-    <div class="container">
+    <div class="container d-flex align-items-center justify-content-between">
       <div class="navbar-header">
         <a
           class="menu-toggle ext-nav-toggle visible-xs-block"
@@ -78,21 +78,38 @@
           href="#"
           ><span></span
         ></a>
-        <a class="navbar-brand" href="./">
+        <NuxtLink class="navbar-brand sigLogo" to="/"
+          ><img src="/images/signature-logo.png" alt=""
+        /></NuxtLink>
+
+        <!-- <a class="navbar-brand" href="./">
           <img src="/images/signature-logo.png" alt="" />
-        </a>
+        </a> -->
       </div>
       <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#home" class="hover-effect">Home</a></li>
-          <li><a href="#about" class="hover-effect">About</a></li>
-          <li><a href="#team" class="hover-effect">Team</a></li>
-          <li><a href="#services" class="hover-effect">Services</a></li>
-          <li><a href="#work" class="hover-effect">Work</a></li>
-          <li><a href="#process" class="hover-effect">Process</a></li>
-          <li><a href="#skills" class="hover-effect">Skills</a></li>
-          <li><a href="#contact" class="hover-effect">Contact</a></li>
-          <li class="hidden-xs">
+        <ul class="nav navbar-nav navbar-right d-flex align-items-center">
+          <li>
+            <NuxtLink class="hover-effect" to="/products">Signature<br />Series</NuxtLink>
+          </li>
+          <li>
+            <NuxtLink class="hover-effect" to="/products"
+              >Signature<br />Collection</NuxtLink
+            >
+          </li>
+          <li>
+            <NuxtLink class="hover-effect" to="/about">
+              <span class="sigTitle">Signature</span><br />Story</NuxtLink
+            >
+          </li>
+          <li>
+            <!-- <a href="#contact" class="hover-effect">Business <br />Enquiry</a> -->
+            <a href="#contact" class="hover-effect">Locate A<br />Distributor</a>
+          </li>
+          <li>
+            <!-- <a href="#contact" class="hover-effect">Business <br />Enquiry</a> -->
+            <a href="#contact" class="hover-effect">Become A<br />Distributor</a>
+          </li>
+          <li class="hidden-xs align-self-end">
             <a class="menu-toggle ext-nav-toggle" data-target=".ext-nav" href="#"
               ><span></span
             ></a>
@@ -107,3 +124,50 @@
 
   <!-- NAVBAR -->
 </template>
+
+<style>
+.navbar-brand.sigLogo {
+  margin-left: 0 !important;
+}
+
+.colors-e .gallery .filter .nav li a.active {
+  color: #215c35;
+}
+
+#top-nav.colors-e li a:hover,
+.colors-e .gallery .filter .nav li a:hover {
+  color: #215c35;
+}
+
+.state1 #top-nav .dropdown-menu > li > a,
+.state1 #top-nav .navbar-brand,
+.state1 #top-nav .navbar-header,
+.state1 #top-nav li,
+.state1 #top-nav li > a {
+  /* line-height: 34px; */
+}
+
+/* .state1 #top-nav li > a {
+  margin: 8px 11px;
+  line-height: 34px;
+} */
+
+#top-nav.colors-e li a:hover .sigTitle,
+.colors-e .gallery .filter .nav li a:hover .sigTitle {
+  /* color: green;   */
+}
+
+nav#top-nav > .container::before,
+nav#top-nav > .container::after {
+  content: unset;
+}
+
+.navbar-brand img {
+  height: 60px;
+}
+
+#top-nav .menu-toggle {
+  height: max-content !important;
+  padding: 31px 0 !important;
+}
+</style>

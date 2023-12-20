@@ -1,9 +1,11 @@
 <template>
   <section id="testimonial">
     <div class="view">
-      <img class="bg" src="/images/bg/bg-L7.jpg" />
+      <!-- <img class="bg" src="/images/bg/bg-L7.jpg" /> -->
+      <img class="bg" src="/images/bg/sigCustomers3.jpeg" />
+      
 
-      <div class="content no-top-padding no-bottom-padding colors-g background-95">
+      <div class="content no-top-padding no-bottom-padding colors-h background-85">
         <div class="container">
           <!-- <div class="show-list slogan">
             <div class="show-item">
@@ -16,12 +18,12 @@
           </div> -->
           <div class="viewAllProducts">
             <a class="underline-text colors-h background-0" href="#testimonial">
-              <h3>The <span class="link">Signature</span> Customer Experience...</h3>
+              <h3>The <span class="highlight">Signature</span> <span class="link">Experience</span></h3>
             </a>
           </div>
 
           <p class="text-center big-font">
-            <em>— Customer Service Is Always Our Top Priority—</em>
+            <em> From Distributors To Households — Premium Cookware That Serves Happiness</em>
           </p>
 
           <!-- swiper testimonial slider -->
@@ -51,13 +53,31 @@
             >
               <swiper-slide class="container testimonialSlide colors-g background-20">
                 <div class="row">
-                  <div class="col-xs-12 testimonial">
+                  <div class="col-xs-12 col-md-7 testimonial">
                     <p class="text-justify">
                       Butterfly Steels is synonymous to quality products and innovation.
                       It has been a great experience to work with a company that is so
                       highly organized and efficient in their profession. It was in 1998
                       when I first got the opportunity to deal with Butterfly Steels.
                     </p>
+                  </div>
+                  <div class="col-xs-12 col-md-5">
+                    <div class="d-flex">
+                      <div class="col-xs-6">
+                        <img
+                          class="circle"
+                          height="120px"
+                          width="120px"
+                          src="/images/bg/bg-light-L1.jpg"
+                        />
+                      </div>
+
+                      <p class="title text-right">
+                      <p>Mr. Satish Kumar Garg</p>
+                        <p class="underline-text"><em>Director</em></p>
+                        <p class="big-font">asd pvt. ltd.</p>
+                    </p>
+                    </div>                    
                   </div>
                 </div>
                 <div class="row d-flex author">

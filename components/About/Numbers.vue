@@ -1,5 +1,11 @@
 <template>
   <section id="numbers">
+    <!-- <div class="viewAllProducts">
+      <a href="#numbers" class="underline-text">
+        <h3>Our <span class="link">Track-Record</span> So Far..</h3>
+      </a>
+    </div> -->
+
     <div class="view">
       <img class="bg" src="/images/bg/bg-L9.jpg" />
       <div class="content half-size colors-g background-60">
